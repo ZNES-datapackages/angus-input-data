@@ -13,7 +13,7 @@
                 "fields": [
 		    {
                         "name": "scenario",
-                        "type": "integer",
+                        "type": "string",
                         "format": "default"
                     },	
 		    {
