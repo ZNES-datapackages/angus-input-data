@@ -2,7 +2,7 @@ year,parameter,carrier,tech,value,unit,source
 2030,efficiency,biomass,ce,0.3,per unit,Own assumption
 2030,efficiency,biomass,st,0.3,per unit,Own assumption
 2030,efficiency,coal,st,0.4,per unit,TYNDP2016A
-2030,efficiency,coal,ocgt,0.4,per unit,TYNDP2016A
+2030,efficiency,coal,ccgt,0.4,per unit,TYNDP2016A
 2030,efficiency,gas,ccgt,0.5,per unit,TYNDP2016A
 2030,efficiency,gas,ocgt,0.38,per unit,TYNDP2016A
 2030,efficiency,gas,st,0.36,per unit,TYNDP2016A
@@ -20,6 +20,7 @@ year,parameter,carrier,tech,value,unit,source
 2030,avf,biomass,ce,0.75,per unit,Own assumption
 2030,avf,biomass,st,0.75,per unit,Own assumption
 2030,avf,coal,st,0.75,per unit,TYNDP2016A
+2030,avf,coal,ccgt,0.75,per unit,TYNDP2016A
 2030,avf,gas,ccgt,0.8,per unit,TYNDP2016A
 2030,avf,gas,ocgt,0.8,per unit,TYNDP2016A
 2030,avf,gas,st,0.8,per unit,TYNDP2016A
@@ -36,7 +37,7 @@ year,parameter,carrier,tech,value,unit,source
 2030,vom,biomass,ce,3,Euro/Mwh,Own assumption
 2030,vom,biomass,st,3,Euro/Mwh,Own assumption
 2030,vom,coal,st,3.3,Euro/Mwh,TYNDP2016A
-2030,vom,coal,ocgt,3.3,Euro/Mwh,TYNDP2016A
+2030,vom,coal,ccgt,3.3,Euro/Mwh,TYNDP2016A
 2030,vom,gas,ccgt,1.6,Euro/Mwh,TYNDP2016A
 2030,vom,gas,ocgt,1.6,Euro/Mwh,TYNDP2016A
 2030,vom,gas,st,1.6,Euro/Mwh,TYNDP2016A
