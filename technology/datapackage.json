@@ -5,7 +5,7 @@
  	{
             "path": "technology.csv",
             "profile": "tabular-data-resource",
-            "name": "carrier",
+            "name": "technology",
             "format": "csv",
             "mediatype": "text/csv",
             "encoding": "utf-8",
@@ -51,7 +51,7 @@
                     ""
                 ]
             }
-        },
+        }
       
     ],
     "name": "Technology Data",
