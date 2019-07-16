@@ -1,0 +1,106 @@
+{
+    "profile": "tabular-data-package",
+    "resources": [
+        {
+            "path": "emission-factor.csv",
+            "profile": "tabular-data-resource",
+            "name": "carrier",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "utf-8",
+            "schema": {
+                "fields": [
+
+                    {
+                        "name": "carrier",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "value",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "unit",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "source",
+                        "type": "string",
+                        "format": "default"
+                    }
+                ],
+                "missingValues": [
+                    ""
+                ]
+            }
+        },
+ 	{
+            "path": "carrier-cost.csv",
+            "profile": "tabular-data-resource",
+            "name": "carrier",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "utf-8",
+            "schema": {
+                "fields": [
+		    {
+                        "name": "scenario",
+                        "type": "string",
+                        "format": "default"
+                    },	
+                    {
+                        "name": "carrier",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "value",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "unit",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "source",
+                        "type": "string",
+                        "format": "default"
+                    }
+                ],
+                "missingValues": [
+                    ""
+                ]
+            }
+        },
+      
+    ],
+    "name": "Technology Costs",
+    "description": "Data includes costs and technical parameters.",
+    "contributors": [
+        {
+            "title": "'Simon Hilpert'",
+            "email": "simon.hilpert@uni-flensburg.de",
+            "role": "author"
+        },
+        {
+            "title": "'Martin Soethe'",
+            "email": "martin.soethe@uni-flensburg.de",
+            "role": "author"
+        }
+    ],
+    "sources": [
+	{
+	    "title": "UBA2018",
+	    "path": "https://www.umweltbundesamt.de/sites/default/files/medien/361/dokumente/co2_ef_2018_komplett.xlsx"
+	},
+        {
+            "title": "TYNDP2016A",
+            "path": "https://www.entsoe.eu/Documents/TYNDP%20documents/TYNDP%202016/rgips/TYNDP2016%20market%20modelling%20data.xlsx"
+        }
+    ]
+}

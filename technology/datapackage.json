@@ -1,0 +1,72 @@
+{
+    "profile": "tabular-data-package",
+    "resources": [
+ 
+ 	{
+            "path": "technology.csv",
+            "profile": "tabular-data-resource",
+            "name": "carrier",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "utf-8",
+            "schema": {
+                "fields": [
+		    {
+                        "name": "scenario",
+                        "type": "string",
+                        "format": "default"
+                    },	
+		    {
+                        "name": "parameter",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "carrier",
+                        "type": "string",
+                        "format": "default"
+                    },
+            	    {
+                        "name": "tech",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "value",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "unit",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "source",
+                        "type": "string",
+                        "format": "default"
+                    }
+                ],
+                "missingValues": [
+                    ""
+                ]
+            }
+        },
+      
+    ],
+    "name": "Technology Data",
+    "description": "Data includes cost technical parameters of average powerplant park in Europe for scenario years.",
+    "contributors": [
+        {
+            "title": "'Simon Hilpert'",
+            "email": "simon.hilpert@uni-flensburg.de",
+            "role": "author"
+        }
+    ],
+    "sources": [
+        {
+            "title": "TYNDP2016A",
+            "path": "https://www.entsoe.eu/Documents/TYNDP%20documents/TYNDP%202016/rgips/TYNDP2016%20market%20modelling%20data.xlsx"
+        }
+    ]
+}

@@ -1,0 +1,8 @@
+carrier,value,unit,source
+coal,0.34,t (CO2)/MWh,UBA2018
+gas,0.2,t (CO2)/MWh,UBA2018
+lignite,0.4,t (CO2)/MWh,UBA2018
+waste,0.33,t (CO2)/MWh,UBA2018
+oil,0.29,t (CO2)/MWh,UBA2018
+uranium,0,t (CO2)/MWh,Own assumption
+biomass,0,t (CO2)/MWh,Own assumption
