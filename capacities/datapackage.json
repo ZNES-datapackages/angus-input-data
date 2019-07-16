@@ -57,7 +57,7 @@
                         "type": "integer",
                         "format": "default",
 			"unit": "GWh" 	
-                    },
+                    }
                   
                 ],
                 "missingValues": [
@@ -79,7 +79,7 @@
     "sources": [
         {
             "title": "NEP2019",
-            "path": ""
+            "path": "www.netzentwicklungsplan.de"
         }
     ]
 }
