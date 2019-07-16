@@ -1,0 +1,85 @@
+{
+    "profile": "tabular-data-package",
+    "resources": [
+ 
+ 	{
+            "path": "DE_system.csv",
+            "profile": "tabular-data-resource",
+            "name": "DE_system",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "utf-8",
+            "schema": {
+                "fields": [
+		    {
+                        "name": "scenario",
+                        "type": "integer",
+                        "format": "default"
+                    },	
+		    {
+                        "name": "onshore",
+                        "type": "integer",
+                        "format": "default",
+			"unit": "MW" 	
+                    },
+		    {
+                        "name": "offshore",
+                        "type": "integer",
+                        "format": "default",
+			"unit": "MW" 	
+                    },
+		    {
+                        "name": "biomass",
+                        "type": "integer",
+                        "format": "default",
+			"unit": "MW" 	
+                    },
+		    {
+                        "name": "pv",
+                        "type": "integer",
+                        "format": "default",
+			"unit": "MW" 	
+                    },
+		    {
+                        "name": "battery",
+                        "type": "integer",
+                        "format": "default",
+			"unit": "MW" 	
+                    },
+		    {
+                        "name": "dsm",
+                        "type": "integer",
+                        "format": "default",
+			"unit": "MW" 	
+                    },
+		    {
+                        "name": "demand",
+                        "type": "integer",
+                        "format": "default",
+			"unit": "GWh" 	
+                    },
+                  
+                ],
+                "missingValues": [
+                    ""
+                ]
+            }
+        }
+      
+    ],
+    "name": "Scenario Data",
+    "description": "",
+    "contributors": [
+        {
+            "title": "'Simon Hilpert'",
+            "email": "simon.hilpert@uni-flensburg.de",
+            "role": "author"
+        }
+    ],
+    "sources": [
+        {
+            "title": "NEP2019",
+            "path": ""
+        }
+    ]
+}
