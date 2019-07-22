@@ -16,6 +16,7 @@ year,parameter,carrier,tech,value,unit,source
 2030,efficiency,uranium,st,0.33,per unit,TYNDP2016A
 2030,efficiency,waste,chp,0.26,per unit,Own assumption
 2030,efficiency,waste,industry,0.26,per unit,Own assumption
+2030,efficiency,mixed,gt,0.26,per unit,Own assumption
 2030,efficiency,lithium,battery,0.85,per unit; roundtrip,Own assumption
 2030,avf,biomass,ce,1,per unit,Own assumption
 2030,avf,biomass,st,1,per unit,Own assumption
@@ -31,6 +32,7 @@ year,parameter,carrier,tech,value,unit,source
 2030,avf,lignite,st,1,per unit,Own assumption
 2030,avf,oil,ocgt,1,per unit,Own assumption
 2030,avf,oil,st,1,per unit,Own assumption
+2030,avf,mixed,gt,1,per unit,Own assumption
 2030,avf,uranium,st,1,per unit,Own assumption
 2030,avf,waste,chp,1,per unit,Own assumption
 2030,avf,waste,industry,1,per unit,Own assumption
@@ -49,6 +51,7 @@ year,parameter,carrier,tech,value,unit,source
 2030,vom,lignite,st,3.3,Euro/Mwh,TYNDP2016A
 2030,vom,oil,ocgt,3.3,Euro/Mwh,TYNDP2016A
 2030,vom,oil,st,3.3,Euro/Mwh,TYNDP2016A
+2030,vom,mixed,gt,5,Euro/Mwh,Own assumption
 2030,vom,uranium,st,9,Euro/Mwh,TYNDP2016A
 2030,vom,waste,chp,5,Euro/Mwh,Own assumption
 2030,vom,waste,industry,5,Euro/Mwh,Own assumption
