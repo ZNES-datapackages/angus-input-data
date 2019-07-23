@@ -1,0 +1,41 @@
+{
+    "profile": "tabular-data-package",
+    "resources": [
+ 
+ 	{
+            "path": "synthetic-heat-load-profile.csv",
+            "profile": "tabular-data-resource",
+            "name": "synthetic-heat-load-profile",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "utf-8",
+            "schema": {
+                "fields": [
+		    {
+                        "name": "hour",
+                        "type": "integer",
+                        "format": "default"
+                    },	
+		    {
+                        "name": "DE",
+                        "type": "number",
+                        "format": "default"
+                    }
+                ],
+                "missingValues": [
+                    ""
+                ]
+            }
+        }
+      
+    ],
+    "name": "Heat Profiles",
+    "description": "",
+    "contributors": [
+        {
+            "title": "'Simon Hilpert'",
+            "email": "simon.hilpert@uni-flensburg.de",
+            "role": "author"
+        }
+    ]
+}
