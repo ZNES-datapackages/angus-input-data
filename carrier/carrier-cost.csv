@@ -17,9 +17,9 @@ climate,biomass,27.29,EUR/MWh,Prognos2013
 climate,waste,6.7,EUR/MWh,IRENA2015
 2050-100RE,uranium,1.5,EUR/MWh,Own Assumption
 2050-100RE,lignite,6,EUR/MWh,Own Assumption
-2051-100RE,coal,8,EUR/MWh,Own Assumption
-2051-100RE,gas,54,EUR/MWh,Own Assumption
-2052-100RE,oil,60,EUR/MWh,Own Assumption
-2052-100RE,co2,150,EUR/t,Own Assumption
-2053-100RE,biomass,30,EUR/MWh,Own Assumption
-2053-100RE,waste,30,EUR/MWh,Own Assumption
+2050-100RE,coal,8,EUR/MWh,Own Assumption
+2050-100RE,gas,54,EUR/MWh,Own Assumption
+2050-100RE,oil,60,EUR/MWh,Own Assumption
+2050-100RE,co2,150,EUR/t,Own Assumption
+2050-100RE,biomass,30,EUR/MWh,Own Assumption
+2050-100RE,waste,30,EUR/MWh,Own Assumption
