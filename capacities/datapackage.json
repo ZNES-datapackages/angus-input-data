@@ -64,6 +64,44 @@
                     ""
                 ]
             }
+        },
+        {
+            "path": "storage.csv",
+            "profile": "tabular-data-resource",
+            "name": "storage",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "utf-8",
+            "schema": {
+                "fields": [
+		    {
+                        "name": "scenario",
+                        "type": "string",
+                        "format": "default"
+                    },	
+		    {
+                        "name": "phs",
+                        "type": "numeric",
+                        "format": "default",
+			"unit": "MW"
+                    },
+		    {
+                        "name": "caes",
+                        "type": "numeric",
+                        "format": "default",
+			"unit": "MW"
+                    },
+		    {
+                        "name": "battery",
+                        "type": "numeric",
+                        "format": "default",
+			"unit": "MW"
+                    }
+                ],
+                "missingValues": [
+                    ""
+                ]
+            }
         }
       
     ],
