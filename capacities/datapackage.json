@@ -1,7 +1,45 @@
 {
     "profile": "tabular-data-package",
     "resources": [
- 
+	{
+            "path": "storage.csv",
+            "profile": "tabular-data-resource",
+            "name": "storage",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "utf-8",
+            "schema": {
+                "fields": [
+		    {
+                        "name": "scenario",
+                        "type": "string",
+                        "format": "default"
+                    },	
+		    {
+                        "name": "phs",
+                        "type": "integer",
+                        "format": "default",
+			"unit": "MW" 	
+                    },
+		    {
+                        "name": "caes",
+                        "type": "integer",
+                        "format": "default",
+			"unit": "MW" 	
+                    },
+		    {
+                        "name": "battery",
+                        "type": "integer",
+                        "format": "default",
+			"unit": "MW" 	
+                    }
+                  
+                ],
+                "missingValues": [
+                    ""
+                ]
+            }
+        },
  	{
             "path": "DE_system.csv",
             "profile": "tabular-data-resource",
@@ -59,44 +97,6 @@
 			"unit": "GWh" 	
                     }
                   
-                ],
-                "missingValues": [
-                    ""
-                ]
-            }
-        },
-        {
-            "path": "storage.csv",
-            "profile": "tabular-data-resource",
-            "name": "storage",
-            "format": "csv",
-            "mediatype": "text/csv",
-            "encoding": "utf-8",
-            "schema": {
-                "fields": [
-		    {
-                        "name": "scenario",
-                        "type": "string",
-                        "format": "default"
-                    },	
-		    {
-                        "name": "phs",
-                        "type": "numeric",
-                        "format": "default",
-			"unit": "MW"
-                    },
-		    {
-                        "name": "caes",
-                        "type": "numeric",
-                        "format": "default",
-			"unit": "MW"
-                    },
-		    {
-                        "name": "battery",
-                        "type": "numeric",
-                        "format": "default",
-			"unit": "MW"
-                    }
                 ],
                 "missingValues": [
                     ""
