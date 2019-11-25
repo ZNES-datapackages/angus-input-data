@@ -1,3 +1,3 @@
-scenario,phs,caes,battery
-2030C,6800,1000,10000
-2050,6800,1000,10000
+scenario,hydro-phs,air-caes,lithium-battery
+2030C,6800,1000,12500
+100% RES,6800,1000,12500

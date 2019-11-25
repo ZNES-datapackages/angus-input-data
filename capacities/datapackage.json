@@ -16,19 +16,19 @@
                         "format": "default"
                     },	
 		    {
-                        "name": "phs",
+                        "name": "hydro-phs",
                         "type": "integer",
                         "format": "default",
 			"unit": "MW" 	
                     },
 		    {
-                        "name": "caes",
+                        "name": "air-caes",
                         "type": "integer",
                         "format": "default",
 			"unit": "MW" 	
                     },
 		    {
-                        "name": "battery",
+                        "name": "lithium-battery",
                         "type": "integer",
                         "format": "default",
 			"unit": "MW" 	
