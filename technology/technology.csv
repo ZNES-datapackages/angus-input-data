@@ -18,7 +18,7 @@ year,parameter,carrier,tech,value,unit,source
 2030,efficiency,waste,industry,0.26,per unit,Own assumption
 2030,efficiency,mixed,gt,0.26,per unit,Own assumption
 2030,efficiency,lithium,battery,0.85,per unit,roundtrip;Own assumption
-2030,efficiency,air,caes,0.755,per unit,roundtrip;Own assumption
+2030,efficiency,air,caes,0.57,per unit,roundtrip;Own assumption
 2030,avf,biomass,ce,0.9,per unit,Own assumption
 2030,avf,biomass,st,0.9,per unit,Own assumption
 2030,avf,coal,st,0.9,per unit,Own assumption
@@ -70,7 +70,7 @@ year,parameter,carrier,tech,value,unit,source
 2050,efficiency,gas,ocgt,0.38,per unit,TYNDP2016A
 2050,efficiency,gas,st,0.36,per unit,TYNDP2016A
 2050,efficiency,gas,gt,0.4,per unit,Own assumption
-2050,efficiency,hydro,phs,0.75,per unit, roundtrip
+2050,efficiency,hydro,phs,0.75,per unit,roundtrip; DIW
 2050,efficiency,hydro,ror,0.9,per unit,DIW
 2050,efficiency,hydro,rsv,0.9,per unit,DIW
 2050,efficiency,lignite,st,0.4,per unit,TYNDP2016A
@@ -80,7 +80,8 @@ year,parameter,carrier,tech,value,unit,source
 2050,efficiency,waste,chp,0.26,per unit,Own assumption
 2050,efficiency,waste,industry,0.26,per unit,Own assumption
 2050,efficiency,mixed,gt,0.26,per unit,Own assumption
-2050,efficiency,lithium,battery,0.85,per unit, roundtrip
+2050,efficiency,lithium,battery,0.85,per unit,roundtrip;Own assumption
+2050,efficiency,air,caes,0.57,per unit,roundtrip;Own assumption
 2050,avf,biomass,ce,0.9,per unit,Own assumption
 2050,avf,biomass,st,0.9,per unit,Own assumption
 2050,avf,coal,st,0.9,per unit,Own assumption
@@ -100,6 +101,7 @@ year,parameter,carrier,tech,value,unit,source
 2050,avf,waste,chp,0.9,per unit,Own assumption
 2050,avf,waste,industry,0.9,per unit,Own assumption
 2050,avf,lithium,battery,0.9,per unit,Own assumption
+2050,avf,air,caes,0.9,per unit,Own assumption
 2050,vom,biomass,ce,3,Euro/Mwh,Own assumption
 2050,vom,biomass,st,3,Euro/Mwh,Own assumption
 2050,vom,coal,st,3.3,Euro/Mwh,TYNDP2016A
@@ -119,5 +121,7 @@ year,parameter,carrier,tech,value,unit,source
 2050,vom,waste,chp,5,Euro/Mwh,Own assumption
 2050,vom,waste,industry,5,Euro/Mwh,Own assumption
 2050,vom,lithium,battery,0,Euro/Mwh,Own assumption
+2050,vom,air,caes,0,Euro/Mwh,Own assumption
 2050,storage_capacity,lithium,battery,5,h,Own assumption
 2050,storage_capacity,hydro,phs,6,h,Brown et al.
+2050,storage_capacity,air,caes,300,h,Own assumption
