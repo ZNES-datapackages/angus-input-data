@@ -67,6 +67,18 @@
         {
             "title": "TYNDP2016A",
             "path": "https://www.entsoe.eu/Documents/TYNDP%20documents/TYNDP%202016/rgips/TYNDP2016%20market%20modelling%20data.xlsx"
+        },
+	{
+            "title": "DIW",
+            "path": "https://www.diw.de/documents/publikationen/73/diw_01.c.424566.de/diw_datadoc_2013-068.pdf"
+        },
+	{
+            "title": "IWES",
+            "path": "http://www.fvee.de/fileadmin/publikationen/Politische_Papiere_FVEE/14.IWES_Roadmap-Speicher/14_IWES-etal_Roadmap_Speicher_Langfassung.pdf"
+        },
+        {
+            "title": "Brown",
+            "path": "10.1016/j.energy.2017.06.004"
         }
     ]
 }

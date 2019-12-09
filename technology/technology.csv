@@ -1,5 +1,5 @@
 year,parameter,carrier,tech,value,unit,source
-2030,efficiency,biomass,ce,0.35,per unit,Own assumption
+2030,efficiency,biomass,ce,0.35,per unit,DIW
 2030,efficiency,biomass,st,0.35,per unit,Own assumption
 2030,efficiency,coal,st,0.4,per unit,TYNDP2016A
 2030,efficiency,coal,ccgt,0.4,per unit,TYNDP2016A
@@ -60,28 +60,26 @@ year,parameter,carrier,tech,value,unit,source
 2030,vom,lithium,battery,0,Euro/Mwh,Own assumption
 2030,vom,air,caes,0,Euro/Mwh,Own assumption
 2030,storage_capacity,lithium,battery,5,h,Own assumption
-2030,storage_capacity,hydro,phs,6,h,Brown et al.
+2030,storage_capacity,hydro,phs,6,h,Brown
 2030,storage_capacity,air,caes,300,h,Own assumption
 2050,efficiency,biomass,ce,0.35,per unit,Own assumption
-2050,efficiency,biomass,st,0.35,per unit,Own assumption
-2050,efficiency,coal,st,0.4,per unit,TYNDP2016A
-2050,efficiency,coal,ccgt,0.4,per unit,TYNDP2016A
-2050,efficiency,gas,ccgt,0.5,per unit,TYNDP2016A
-2050,efficiency,gas,ocgt,0.38,per unit,TYNDP2016A
-2050,efficiency,gas,st,0.36,per unit,TYNDP2016A
-2050,efficiency,gas,gt,0.4,per unit,Own assumption
+2050,efficiency,biomass,st,0.487,per unit,DIW
+2050,efficiency,coal,st,0.45,per unit,DIW
+2050,efficiency,gas,ccgt,56.95,per unit,Avg; DIW
+2050,efficiency,gas,ocgt,36.6,per unit,Avg; DIW
+2050,efficiency,gas,st,41.7,per unit,DIW
+2050,efficiency,gas,gt,33.6,per unit,DIW
 2050,efficiency,hydro,phs,0.75,per unit,roundtrip; DIW
 2050,efficiency,hydro,ror,0.9,per unit,DIW
 2050,efficiency,hydro,rsv,0.9,per unit,DIW
-2050,efficiency,lignite,st,0.4,per unit,TYNDP2016A
-2050,efficiency,oil,ocgt,0.35,per unit,TYNDP2016A
-2050,efficiency,oil,st,0.35,per unit,TYNDP2016A
-2050,efficiency,uranium,st,0.33,per unit,TYNDP2016A
-2050,efficiency,waste,chp,0.26,per unit,Own assumption
-2050,efficiency,waste,industry,0.26,per unit,Own assumption
-2050,efficiency,mixed,gt,0.26,per unit,Own assumption
-2050,efficiency,lithium,battery,0.85,per unit,roundtrip;Own assumption
-2050,efficiency,air,caes,0.57,per unit,roundtrip;Own assumption
+2050,efficiency,lignite,st,0.4,per unit,Avg; DIW
+2050,efficiency,oil,ocgt,0.396,per unit,DIW
+2050,efficiency,oil,st,41,per unit,DIW
+2050,efficiency,uranium,st,34.3,per unit,DIW
+2050,efficiency,waste,chp,0.3,per unit,Own assumption
+2050,efficiency,mixed,gt,0.3,per unit,Own assumption
+2050,efficiency,lithium,battery,0.92,per unit,roundtrip; IWES
+2050,efficiency,air,caes,0.57,per unit,roundtrip; Own assumption
 2050,avf,biomass,ce,0.9,per unit,Own assumption
 2050,avf,biomass,st,0.9,per unit,Own assumption
 2050,avf,coal,st,0.9,per unit,Own assumption
@@ -99,7 +97,6 @@ year,parameter,carrier,tech,value,unit,source
 2050,avf,mixed,gt,0.9,per unit,Own assumption
 2050,avf,uranium,st,0.9,per unit,Own assumption
 2050,avf,waste,chp,0.9,per unit,Own assumption
-2050,avf,waste,industry,0.9,per unit,Own assumption
 2050,avf,lithium,battery,0.9,per unit,Own assumption
 2050,avf,air,caes,0.9,per unit,Own assumption
 2050,vom,biomass,ce,3,Euro/Mwh,Own assumption
@@ -123,5 +120,5 @@ year,parameter,carrier,tech,value,unit,source
 2050,vom,lithium,battery,0,Euro/Mwh,Own assumption
 2050,vom,air,caes,0,Euro/Mwh,Own assumption
 2050,storage_capacity,lithium,battery,5,h,Own assumption
-2050,storage_capacity,hydro,phs,6,h,Brown et al.
+2050,storage_capacity,hydro,phs,6,h,Brown
 2050,storage_capacity,air,caes,300,h,Own assumption
