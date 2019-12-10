@@ -22,20 +22,20 @@ year,parameter,carrier,tech,value,unit,source
 2030,storage_capacity,lithium,battery,5,h,Own assumption
 2030,storage_capacity,hydro,phs,6,h,Brown
 2030,storage_capacity,air,caes,300,h,Own assumption
-2040,efficiency,biomass,ce,0.35,per unit,
-2040,efficiency,biomass,st,0.487,per unit,
-2040,efficiency,coal,st,0.45,per unit,
-2040,efficiency,gas,ccgt,56.95,per unit,
-2040,efficiency,gas,ocgt,36.6,per unit,
-2040,efficiency,gas,st,41.7,per unit,
-2040,efficiency,gas,gt,33.6,per unit,
+2040,efficiency,biomass,ce,0.35,per unit,N/A
+2040,efficiency,biomass,st,0.487,per unit,N/A
+2040,efficiency,coal,st,0.45,per unit,N/A
+2040,efficiency,gas,ccgt,56.95,per unit,N/A
+2040,efficiency,gas,ocgt,36.6,per unit,N/A
+2040,efficiency,gas,st,41.7,per unit,N/A
+2040,efficiency,gas,gt,33.6,per unit,N/A
 2040,efficiency,hydro,phs,0.75,per unit,roundtrip; DIW
 2040,efficiency,hydro,ror,0.9,per unit,DIW
 2040,efficiency,hydro,rsv,0.9,per unit,DIW
-2040,efficiency,lignite,st,0.4,per unit,
-2040,efficiency,oil,ocgt,0.396,per unit,
-2040,efficiency,oil,st,41,per unit,
-2040,efficiency,uranium,st,34.3,per unit,
+2040,efficiency,lignite,st,0.4,per unit,N/A
+2040,efficiency,oil,ocgt,0.396,per unit,N/A
+2040,efficiency,oil,st,41,per unit,N/A
+2040,efficiency,uranium,st,34.3,per unit,N/A
 2040,efficiency,waste,chp,0.3,per unit,Own assumption
 2040,efficiency,mixed,gt,0.3,per unit,Own assumption
 2040,efficiency,lithium,battery,0.92,per unit,roundtrip; IWES
