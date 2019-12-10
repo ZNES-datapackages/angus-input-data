@@ -72,8 +72,8 @@ year,parameter,carrier,tech,value,unit,source
 2050,vom,hydro,ror,0,Euro/Mwh,DIW
 2050,vom,hydro,rsv,0,Euro/Mwh,DIW
 2050,vom,lignite,st,3.3,Euro/Mwh,TYNDP2018
-2050,vom,oil,st,3.3,Euro/Mwh,TYNDP2018
-2050,vom,mixed,gt,5,Euro/Mwh,Own assumption
+2050,vom,oil,ocgt,3.3,Euro/Mwh,TYNDP2018
+2050,vom,mixed,st,5,Euro/Mwh,Own assumption
 2050,vom,uranium,st,9,Euro/Mwh,TYNDP2018
 2050,vom,waste,st,5,Euro/Mwh,Own assumption
 2050,vom,lithium,battery,0,Euro/Mwh,Own assumption
