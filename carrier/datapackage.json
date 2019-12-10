@@ -99,17 +99,17 @@
 	    "path": "https://www.umweltbundesamt.de/sites/default/files/medien/361/dokumente/co2_ef_2018_komplett.xlsx"
 	},
         {
-            "title": "TYNDP2016A",
-            "path": "https://www.entsoe.eu/Documents/TYNDP%20documents/TYNDP%202016/rgips/TYNDP2016%20market%20modelling%20data.xlsx"
+            "title": "TYNDP2018",
+            "path": "https://www.entsoe.eu/Documents/TYNDP%20documents/TYNDP2018/Scenarios%20Data%20Sets/Input%20Data.xlsx"
         },
 	{
-	"title": "IRENA2015", 
-	"path": "https://www.irena.org/DocumentDownloads/Publications/IRENA_REmap_Germany_report_2015.pdf" 
+	     "title": "IRENA2015", 
+	     "path": "https://www.irena.org/DocumentDownloads/Publications/IRENA_REmap_Germany_report_2015.pdf" 
         },
- { 
-	"title": "Prognos2013",
-"path": "https://www.prognos.com/uploads/tx_atwpubdb/131010_Prognos_Belectric_Studie_Freiflaechen_Solarkraftwerke_02.pdf"
-}
+        { 
+	   "title": "Prognos2013",
+           "path": "https://www.prognos.com/uploads/tx_atwpubdb/131010_Prognos_Belectric_Studie_Freiflaechen_Solarkraftwerke_02.pdf"
+        }
 
     ]
 }
