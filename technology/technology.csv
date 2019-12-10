@@ -64,42 +64,42 @@ year,parameter,carrier,tech,value,unit,source
 2050,storage_capacity,lithium,battery,5,h,Own assumption
 2050,storage_capacity,hydro,phs,6,h,Brown
 2050,storage_capacity,air,caes,300,h,Own assumption
-all,avf,biomass,ce,0.9,per unit,Own assumption
-all,avf,biomass,st,0.9,per unit,Own assumption
-all,avf,coal,st,0.9,per unit,Own assumption
-all,avf,coal,ccgt,0.9,per unit,Own assumption
-all,avf,gas,ccgt,0.9,per unit,Own assumption
-all,avf,gas,ocgt,0.9,per unit,Own assumption
-all,avf,gas,st,0.9,per unit,Own assumption
-all,avf,gas,gt,0.9,per unit,Own assumption
-all,avf,hydro,phs,0.9,per unit,Own assumption
-all,avf,hydro,ror,0.9,per unit,Own assumption
-all,avf,hydro,rsv,0.9,per unit,Own assumption
-all,avf,lignite,st,0.9,per unit,Own assumption
-all,avf,oil,ocgt,0.9,per unit,Own assumption
-all,avf,oil,st,0.9,per unit,Own assumption
-all,avf,mixed,gt,0.9,per unit,Own assumption
-all,avf,uranium,st,0.9,per unit,Own assumption
-all,avf,waste,chp,0.9,per unit,Own assumption
-all,avf,lithium,battery,0.9,per unit,Own assumption
-all,avf,air,caes,0.9,per unit,Own assumption
-all,vom,biomass,ce,3,Euro/Mwh,Own assumption
-all,vom,biomass,st,3,Euro/Mwh,Own assumption
-all,vom,coal,st,3.3,Euro/Mwh,TYNDP2016A
-all,vom,coal,ccgt,3.3,Euro/Mwh,TYNDP2016A
-all,vom,gas,ccgt,1.6,Euro/Mwh,TYNDP2016A
-all,vom,gas,ocgt,1.6,Euro/Mwh,TYNDP2016A
-all,vom,gas,st,1.6,Euro/Mwh,TYNDP2016A
-all,vom,gas,gt,1.6,Euro/Mwh,TYNDP2016A
-all,vom,hydro,phs,0,Euro/Mwh,DIW
-all,vom,hydro,ror,0,Euro/Mwh,DIW
-all,vom,hydro,rsv,0,Euro/Mwh,DIW
-all,vom,lignite,st,3.3,Euro/Mwh,TYNDP2016A
-all,vom,oil,ocgt,3.3,Euro/Mwh,TYNDP2016A
-all,vom,oil,st,3.3,Euro/Mwh,TYNDP2016A
-all,vom,mixed,gt,5,Euro/Mwh,Own assumption
-all,vom,uranium,st,9,Euro/Mwh,TYNDP2016A
-all,vom,waste,chp,5,Euro/Mwh,Own assumption
-all,vom,waste,industry,5,Euro/Mwh,Own assumption
-all,vom,lithium,battery,0,Euro/Mwh,Own assumption
-all,vom,air,caes,0,Euro/Mwh,Own assumption
+2050,avf,biomass,ce,0.9,per unit,Own assumption
+2050,avf,biomass,st,0.9,per unit,Own assumption
+2050,avf,coal,st,0.9,per unit,Own assumption
+2050,avf,coal,ccgt,0.9,per unit,Own assumption
+2050,avf,gas,ccgt,0.9,per unit,Own assumption
+2050,avf,gas,ocgt,0.9,per unit,Own assumption
+2050,avf,gas,st,0.9,per unit,Own assumption
+2050,avf,gas,gt,0.9,per unit,Own assumption
+2050,avf,hydro,phs,0.9,per unit,Own assumption
+2050,avf,hydro,ror,0.9,per unit,Own assumption
+2050,avf,hydro,rsv,0.9,per unit,Own assumption
+2050,avf,lignite,st,0.9,per unit,Own assumption
+2050,avf,oil,ocgt,0.9,per unit,Own assumption
+2050,avf,oil,st,0.9,per unit,Own assumption
+2050,avf,mixed,gt,0.9,per unit,Own assumption
+2050,avf,uranium,st,0.9,per unit,Own assumption
+2050,avf,waste,chp,0.9,per unit,Own assumption
+2050,avf,lithium,battery,0.9,per unit,Own assumption
+2050,avf,air,caes,0.9,per unit,Own assumption
+2050,vom,biomass,ce,3,Euro/Mwh,Own assumption
+2050,vom,biomass,st,3,Euro/Mwh,Own assumption
+2050,vom,coal,st,3.3,Euro/Mwh,TYNDP2016A
+2050,vom,coal,ccgt,3.3,Euro/Mwh,TYNDP2016A
+2050,vom,gas,ccgt,1.6,Euro/Mwh,TYNDP2016A
+2050,vom,gas,ocgt,1.6,Euro/Mwh,TYNDP2016A
+2050,vom,gas,st,1.6,Euro/Mwh,TYNDP2016A
+2050,vom,gas,gt,1.6,Euro/Mwh,TYNDP2016A
+2050,vom,hydro,phs,0,Euro/Mwh,DIW
+2050,vom,hydro,ror,0,Euro/Mwh,DIW
+2050,vom,hydro,rsv,0,Euro/Mwh,DIW
+2050,vom,lignite,st,3.3,Euro/Mwh,TYNDP2016A
+2050,vom,oil,ocgt,3.3,Euro/Mwh,TYNDP2016A
+2050,vom,oil,st,3.3,Euro/Mwh,TYNDP2016A
+2050,vom,mixed,gt,5,Euro/Mwh,Own assumption
+2050,vom,uranium,st,9,Euro/Mwh,TYNDP2016A
+2050,vom,waste,chp,5,Euro/Mwh,Own assumption
+2050,vom,waste,industry,5,Euro/Mwh,Own assumption
+2050,vom,lithium,battery,0,Euro/Mwh,Own assumption
+2050,vom,air,caes,0,Euro/Mwh,Own assumption
