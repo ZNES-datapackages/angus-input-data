@@ -21,6 +21,11 @@
                         "format": "default"
                     },
                     {
+                        "name": "year",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
                         "name": "value",
                         "type": "number",
                         "format": "default"
