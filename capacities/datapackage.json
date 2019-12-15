@@ -16,7 +16,12 @@
                         "format": "default"
                     },	
                     {
-                        "name": "technology",
+                        "name": "carrier",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "tech",
                         "type": "string",
                         "format": "default"
                     },
