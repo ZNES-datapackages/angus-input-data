@@ -16,6 +16,11 @@ year,parameter,carrier,tech,value,unit,source
 2030,storage_capacity,lithium,battery,5,h,Own assumption
 2030,storage_capacity,hydro,phs,10,h,Own assumption
 2030,storage_capacity,air,caes,300,h,Own assumption
+2030,capex,wind,onshore,1182,Euro/kW,DIW
+2030,capex,wind,offshore,2506,Euro/kW,DIW
+2030,capex,solar,pv,600,Euro/kW,DIW
+2030,capex,gas,ocgt,400,Euro/kW,DIW
+2030,capex,gas,ccgt,800,Euro/kW,DIW
 2040,efficiency,biomass,st,0.4185,per unit,Own assumption
 2040,efficiency,coal,st,0.425,per unit,Own assumption
 2040,efficiency,gas,ccgt,0.53475,per unit,Own assumption

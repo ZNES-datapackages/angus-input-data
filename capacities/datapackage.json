@@ -2,9 +2,9 @@
     "profile": "tabular-data-package",
     "resources": [
 	{
-            "path": "storage.csv",
+            "path": "german-energy-system.csv",
             "profile": "tabular-data-resource",
-            "name": "storage",
+            "name": "german-energy-system",
             "format": "csv",
             "mediatype": "text/csv",
             "encoding": "utf-8",
@@ -15,88 +15,26 @@
                         "type": "string",
                         "format": "default"
                     },	
-		    {
-                        "name": "hydro-phs",
-                        "type": "integer",
-                        "format": "default",
-			"unit": "MW" 	
-                    },
-		    {
-                        "name": "air-caes",
-                        "type": "integer",
-                        "format": "default",
-			"unit": "MW" 	
-                    },
-		    {
-                        "name": "lithium-battery",
-                        "type": "integer",
-                        "format": "default",
-			"unit": "MW" 	
-                    }
-                  
-                ],
-                "missingValues": [
-                    ""
-                ]
-            }
-        },
- 	{
-            "path": "DE_system.csv",
-            "profile": "tabular-data-resource",
-            "name": "DE_system",
-            "format": "csv",
-            "mediatype": "text/csv",
-            "encoding": "utf-8",
-            "schema": {
-                "fields": [
-		    {
-                        "name": "scenario",
+                    {
+                        "name": "technology",
                         "type": "string",
                         "format": "default"
-                    },	
-		    {
-                        "name": "onshore",
-                        "type": "integer",
-                        "format": "default",
-			"unit": "MW" 	
                     },
-		    {
-                        "name": "offshore",
-                        "type": "integer",
-                        "format": "default",
-			"unit": "MW" 	
+                    {
+                        "name": "value",
+                        "type": "number",
+                        "format": "default"
                     },
-		    {
-                        "name": "biomass",
-                        "type": "integer",
-                        "format": "default",
-			"unit": "MW" 	
+                    {
+                        "name": "unit",
+                        "type": "string",
+                        "format": "default"
                     },
-		    {
-                        "name": "pv",
-                        "type": "integer",
-                        "format": "default",
-			"unit": "MW" 	
-                    },
-		    {
-                        "name": "battery",
-                        "type": "integer",
-                        "format": "default",
-			"unit": "MW" 	
-                    },
-		    {
-                        "name": "dsm",
-                        "type": "integer",
-                        "format": "default",
-			"unit": "MW" 	
-                    },
-		    {
-                        "name": "demand",
-                        "type": "integer",
-                        "format": "default",
-			"unit": "GWh" 	
+                    {
+                        "name": "source",
+                        "type": "string",
+                        "format": "default"
                     }
-                  
                 ],
                 "missingValues": [
                     ""
