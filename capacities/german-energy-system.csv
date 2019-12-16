@@ -14,8 +14,8 @@ ANGUS2030,air,caes,2030,1000,MW,
 ANGUS2030,other,res,2030,1300,MW,NEP2019
 ANGUS2030,lithium,battery,2030,12500,MW,NEP2019
 ANGUS2030,hydro,phs,2030,11600,MW,NEP2019
-ANGUS2030,electricity,demand,2030,550000,Gwh,NEP2019
-ANGUS2030,heat,demand_hp,2030,87000,Gwh,NEP2019
+ANGUS2030,electricity,load,2030,550000,Gwh,NEP2019
+ANGUS2030,heat,load-decentral,2030,87000,Gwh,NEP2019
 ANGUS2040,wind,onshore,2040,105250,MW,
 ANGUS2040,wind,offshore,2040,26000,MW,
 ANGUS2040,biomass,st,2040,6631,MW,
@@ -31,8 +31,8 @@ ANGUS2040,air,caes,2040,1000,MW,
 ANGUS2040,other,res,2040,1300,MW,
 ANGUS2040,lithium,battery,2040,12500,MW,
 ANGUS2040,hydro,phs,2040,11000,MW,
-ANGUS2040,electricity,demand,2040,550001,Gwh,
-ANGUS2040,heat,demand_hp,2040,100000,Gwh,
+ANGUS2040,electricity,load,2040,550001,Gwh,
+ANGUS2040,heat,load-decentral,2040,100000,Gwh,
 ANGUS2050,wind,onshore,2050,125000,MW,
 ANGUS2050,wind,offshore,2050,35000,MW,
 ANGUS2050,biomass,st,2050,6631,MW,
@@ -48,5 +48,5 @@ ANGUS2050,air,caes,2050,1000,MW,
 ANGUS2050,other,res,2050,1300,MW,
 ANGUS2050,lithium,battery,2050,12500,MW,
 ANGUS2050,hydro,phs,2050,12800,MW,
-ANGUS2050,electricity,demand,2050,550002,Gwh,
-ANGUS2050,heat,demand_hp,2050,150000,Gwh,
+ANGUS2050,electricity,load,2050,550002,Gwh,
+ANGUS2050,heat,load-decentral,2050,150000,Gwh,
