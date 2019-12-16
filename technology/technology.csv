@@ -10,7 +10,7 @@ year,parameter,carrier,tech,value,unit,source
 2030,efficiency,oil,ocgt,0.35,per unit,TYNDP2018
 2030,efficiency,uranium,st,0.33,per unit,TYNDP2018
 2030,efficiency,waste,st,0.26,per unit,Own assumption
-2030,efficiency,mixed,gt,0.26,per unit,Own assumption
+2030,efficiency,mixed,st,0.26,per unit,Own assumption
 2030,efficiency,lithium,battery,0.85,per unit,roundtrip;Own assumption
 2030,efficiency,air,caes,0.57,per unit,roundtrip;Own assumption
 2030,storage_capacity,lithium,battery,5,h,Own assumption
