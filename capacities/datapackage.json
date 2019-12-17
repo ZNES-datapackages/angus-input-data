@@ -2,9 +2,59 @@
     "profile": "tabular-data-package",
     "resources": [
 	{
-            "path": "german-energy-system.csv",
+            "path": "german-electricity-system.csv",
             "profile": "tabular-data-resource",
-            "name": "german-energy-system",
+            "name": "german-electricity-system",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "utf-8",
+            "schema": {
+                "fields": [
+		    {
+                        "name": "scenario",
+                        "type": "string",
+                        "format": "default"
+                    },	
+                    {
+                        "name": "carrier",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "tech",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "year",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "value",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "unit",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "source",
+                        "type": "string",
+                        "format": "default"
+                    }
+                ],
+                "missingValues": [
+                    ""
+                ]
+            }
+        },
+       {
+            "path": "german-heat-system.csv",
+            "profile": "tabular-data-resource",
+            "name": "german-heat-system",
             "format": "csv",
             "mediatype": "text/csv",
             "encoding": "utf-8",

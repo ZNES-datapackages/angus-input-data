@@ -1,0 +1,5 @@
+scenario,carrier,tech,year,value,unit,source
+ANGUS2030,heat,load-decentral,2030,87000,Gwh,NEP2019
+ANGUS2030,electricity,hp-decentral,2030,20000,MW,
+ANGUS2030,water,tes-decentral,2030,20000,MW,
+ANGUS2030,gas,boiler-decentral,2030,10000,MW,
