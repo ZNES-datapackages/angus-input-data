@@ -51,6 +51,32 @@
                     ""
                 ]
             }
+        },
+{
+            "path": "phs.csv",
+            "profile": "tabular-data-resource",
+            "name": "phs",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "utf-8",
+            "schema": {
+                "fields": [
+		    {
+                        "name": "country",
+                        "type": "string",
+                        "format": "default"
+                    },	
+		    {
+                        "name": "max_hours",
+                        "type": "number",
+                        "format": "default",
+			"source": "PRIMES"
+                    }
+                ],
+                "missingValues": [
+                    ""
+                ]
+            }
         }
       
     ],
@@ -65,8 +91,8 @@
     ],
     "sources": [
         {
-            "title": "TYNDP2016A",
-            "path": "https://www.entsoe.eu/Documents/TYNDP%20documents/TYNDP%202016/rgips/TYNDP2016%20market%20modelling%20data.xlsx"
+            "title": "TYNDP2018",
+            "path": "https://www.entsoe.eu/Documents/TYNDP%20documents/TYNDP2018/Scenarios%20Data%20Sets/Input%20Data.xlsx"
         },
 	{
             "title": "DIW",
@@ -77,8 +103,8 @@
             "path": "http://www.fvee.de/fileadmin/publikationen/Politische_Papiere_FVEE/14.IWES_Roadmap-Speicher/14_IWES-etal_Roadmap_Speicher_Langfassung.pdf"
         },
         {
-            "title": "Brown",
-            "path": "10.1016/j.energy.2017.06.004"
+            "title": "PRIMES",
+            "path": "https://ec.europa.eu/energy/sites/ener/files/documents/metis_technical_note_t1_-_integration_of_primes_scenarios_into_metis.pdf"
         }
     ]
 }

@@ -56,14 +56,14 @@ year,parameter,carrier,tech,value,unit,source
 2050,storage_capacity,hydro,phs,10,h,Own assumption
 2050,storage_capacity,air,caes,300,h,Own assumption
 2050,avf,biomass,st,0.9,per unit,Own assumption
-2050,avf,coal,st,0.9,per unit,Own assumption
-2050,avf,gas,ccgt,0.9,per unit,Own assumption
-2050,avf,gas,ocgt,0.9,per unit,Own assumption
-2050,avf,hydro,phs,0.9,per unit,Own assumption
-2050,avf,hydro,ror,0.9,per unit,Own assumption
-2050,avf,hydro,rsv,0.9,per unit,Own assumption
-2050,avf,lignite,st,0.9,per unit,Own assumption
-2050,avf,oil,ocgt,0.9,per unit,Own assumption
+2050,avf,coal,st,0.85,per unit,PRIMES
+2050,avf,gas,ccgt,0.85,per unit,PRIMES
+2050,avf,gas,ocgt,0.96,per unit,PRIMES
+2050,avf,hydro,phs,1,per unit,Own assumption
+2050,avf,hydro,ror,1,per unit,Own assumption
+2050,avf,hydro,rsv,1,per unit,Own assumption
+2050,avf,lignite,st,0.85,per unit,PRIMES
+2050,avf,oil,ocgt,0.9,per unit,PRIMES
 2050,avf,mixed,st,0.9,per unit,Own assumption
 2050,avf,uranium,st,0.9,per unit,Own assumption
 2050,avf,waste,st,0.9,per unit,Own assumption
