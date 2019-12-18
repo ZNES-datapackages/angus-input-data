@@ -52,7 +52,7 @@
                 ]
             }
         },
-{
+        {
             "path": "phs.csv",
             "profile": "tabular-data-resource",
             "name": "phs",
@@ -69,8 +69,7 @@
 		    {
                         "name": "max_hours",
                         "type": "number",
-                        "format": "default",
-			"source": "PRIMES"
+                        "format": "default"
                     }
                 ],
                 "missingValues": [
