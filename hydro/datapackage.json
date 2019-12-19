@@ -1,0 +1,75 @@
+{
+    "profile": "tabular-data-package",
+    "resources": [
+ 	{
+            "path": "hydro.csv",
+            "profile": "tabular-data-resource",
+            "name": "hydro",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "utf-8",
+            "schema": {
+                "fields": [
+		    {
+                        "name": "rsv",
+                        "type": "number",
+                        "format": "default"
+                    },	
+		    {
+                        "name": "phs",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "ror",
+                        "type": "number",
+                        "format": "default"
+                    },
+            	    {
+                        "name": "ror-share",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "phs-max-hours",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "rsv-max-hours",
+                        "type": "number",
+                        "format": "default"
+                    }
+                ],
+                "missingValues": [
+                    ""
+                ]
+            }
+        }
+    ],
+    "name": "Technology Data",
+    "description": "Data includes hydro power data from TYNDP2018.",
+    "contributors": [
+        {
+            "title": "'Simon Hilpert'",
+            "email": "simon.hilpert@uni-flensburg.de",
+            "role": "author"
+        }
+    ],
+    "sources": [
+        {
+            "title": "Restore2050",
+            "path": "https://zenodo.org/record/804244/files/hydropower.csv?download=1"
+        },
+	{
+            "title": "TYNDP2018",
+            "path": "https://www.entsoe.eu/Documents/TYNDP%20documents/TYNDP2018/Scenarios%20Data%20Sets/ENTSO%20Scenario%202018%20Generation%20Capacities.xlsm"
+        },
+	{
+            "title": "Geth et al. 2015",
+            "path": "https://www.sciencedirect.com/science/article/pii/S1364032115007923"
+        },
+
+	
+    ]
+}
