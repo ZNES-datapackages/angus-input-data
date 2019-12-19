@@ -10,6 +10,11 @@
             "encoding": "utf-8",
             "schema": {
                 "fields": [
+	            {
+                        "name": "country",
+                        "type": "string",
+                        "format": "default"
+                    },	
 		    {
                         "name": "rsv",
                         "type": "number",
@@ -47,7 +52,7 @@
             }
         }
     ],
-    "name": "Technology Data",
+    "name": "Hydro Data",
     "description": "Data includes hydro power data from TYNDP2018.",
     "contributors": [
         {
