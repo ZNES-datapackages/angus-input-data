@@ -88,7 +88,7 @@ year,parameter,carrier,tech,value,unit,source
 2050,vom,mixed,st,5,Euro/Mwh,Own assumption
 2050,vom,waste,st,10,Euro/Mwh,Own assumption
 2050,vom,lithium,battery,0,Euro/Mwh,"Plessmann, p. 90"
-2050,fom,wind,onhsore,35,Euro/kWa,"DIW, p.78"
+2050,fom,wind,onshore,35,Euro/kWa,"DIW, p.78"
 2050,fom,wind,offshore,80,Euro/kWa,"DIW, p.78"
 2050,fom,solar,pv,25,Euro/kWa,"DIW, p.78"
 2050,fom,biomass,st,100,Euro/kWa,"DIW, p.78"
