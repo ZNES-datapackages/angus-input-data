@@ -52,9 +52,12 @@ year,parameter,carrier,tech,value,unit,source
 2050,efficiency,mixed,st,0.3,per unit,Own assumption
 2050,efficiency,lithium,battery,0.92,per unit,roundtrip; IWES
 2050,efficiency,air,caes,0.57,per unit,roundtrip; Own assumption
-2050,storage_capacity,lithium,battery,5,h,Own assumption
-2050,storage_capacity,hydro,phs,10,h,Own assumption
+2050,storage_capacity,lithium,battery,6.5,h,"Plessmann, p. 90"
+2050,storage_capacity,hydro,phs,8,h,"Plessmann, p. 90"
 2050,storage_capacity,air,caes,300,h,Own assumption
+2050,avf,wind,onhsore,1,per unit,Own assumption
+2050,avf,wind,offshore,1,per unit,Own assumption
+2050,avf,solar,pv,1,per unit,Own assumption
 2050,avf,biomass,st,0.9,per unit,Own assumption
 2050,avf,coal,st,0.85,per unit,PRIMES
 2050,avf,gas,ccgt,0.85,per unit,PRIMES
@@ -67,19 +70,59 @@ year,parameter,carrier,tech,value,unit,source
 2050,avf,mixed,st,0.9,per unit,Own assumption
 2050,avf,uranium,st,0.9,per unit,Own assumption
 2050,avf,waste,st,0.9,per unit,Own assumption
-2050,avf,lithium,battery,0.9,per unit,Own assumption
-2050,avf,air,caes,0.9,per unit,Own assumption
-2050,vom,biomass,st,3,Euro/Mwh,Own assumption
-2050,vom,coal,st,3.3,Euro/Mwh,TYNDP2018
-2050,vom,gas,ccgt,1.6,Euro/Mwh,TYNDP2018
-2050,vom,gas,ocgt,1.6,Euro/Mwh,TYNDP2018
-2050,vom,hydro,phs,0,Euro/Mwh,DIW
-2050,vom,hydro,ror,0,Euro/Mwh,DIW
-2050,vom,hydro,rsv,0,Euro/Mwh,DIW
-2050,vom,lignite,st,3.3,Euro/Mwh,TYNDP2018
-2050,vom,oil,ocgt,3.3,Euro/Mwh,TYNDP2018
+2050,avf,lithium,battery,1,per unit,Own assumption
+2050,avf,air,caes,1,per unit,Own assumption
+2050,vom,wind,onshore,0,Euro/Mwh,Plessmann
+2050,vom,wind,offshore,0,Euro/Mwh,Plessmann
+2050,vom,solar,pv,0,Euro/Mwh,Plessmann
+2050,vom,biomass,st,10,Euro/Mwh,Own assumption
+2050,vom,coal,st,6,Euro/Mwh,"DIW, p. 78"
+2050,vom,gas,ccgt,4,Euro/Mwh,"DIW, p. 78"
+2050,vom,gas,ocgt,3,Euro/Mwh,"DIW, p. 78"
+2050,vom,hydro,phs,0,Euro/Mwh,"DIW, p. 78"
+2050,vom,hydro,ror,0,Euro/Mwh,"DIW, p. 78"
+2050,vom,hydro,rsv,0,Euro/Mwh,"DIW, p. 78"
+2050,vom,lignite,st,7,Euro/Mwh,"DIW, p. 78"
+2050,vom,oil,ocgt,3,Euro/Mwh,"DIW, p. 78"
 2050,vom,mixed,st,5,Euro/Mwh,Own assumption
-2050,vom,uranium,st,9,Euro/Mwh,TYNDP2018
-2050,vom,waste,st,5,Euro/Mwh,Own assumption
-2050,vom,lithium,battery,0,Euro/Mwh,Own assumption
-2050,vom,air,caes,0,Euro/Mwh,Own assumption
+2050,vom,waste,st,10,Euro/Mwh,Own assumption
+2050,vom,lithium,battery,0,Euro/Mwh,"Plessmann, p. 90"
+2050,fom,wind,onhsore,35,Euro/kWa,"DIW, p.78"
+2050,fom,wind,offshore,80,Euro/kWa,"DIW, p.78"
+2050,fom,solar,pv,25,Euro/kWa,"DIW, p.78"
+2050,fom,biomass,st,100,Euro/kWa,"DIW, p.78"
+2050,fom,coal,st,25,Euro/kWa,"DIW, p.78"
+2050,fom,gas,ccgt,20,Euro/kWa,"DIW, p.78"
+2050,fom,gas,ocgt,15,Euro/kWa,"DIW, p.78"
+2050,fom,hydro,phs,20,Euro/kWa,"DIW, p.78"
+2050,fom,hydro,ror,60,Euro/kWa,"DIW, p.78"
+2050,fom,hydro,rsv,20,Euro/kWa,"DIW, p.78"
+2050,fom,lignite,st,30,Euro/kWa,"DIW, p.78"
+2050,fom,oil,ocgt,6,Euro/kWa,"DIW, p.78"
+2050,fom,lithium,battery,0.618,Euro/kWa,Plessmann
+2050,capex,wind,ohnshore,1075,Euro/kW,"DIW, p. 75"
+2050,capex,wind,offshore,2093,Euro/kW,"DIW, p. 75"
+2050,capex,solar,pv,425,Euro/kW,"DIW, p. 75"
+2050,capex,biomass,st,1951,Euro/kW,"DIW, p. 75"
+2050,capex,coal,st,1300,Euro/kW,"DIW, p. 75"
+2050,capex,gas,ccgt,800,Euro/kW,"DIW, p. 75"
+2050,capex,gas,ocgt,400,Euro/kW,"DIW, p. 75"
+2050,capex,hydro,phs,2000,Euro/kW,"DIW, p. 75"
+2050,capex,hydro,ror,3000,Euro/kW,"DIW, p. 75"
+2050,capex,hydro,rsv,2000,Euro/kW,"DIW, p. 75"
+2050,capex,lignite,st,1500,Euro/kW,"DIW, p. 75"
+2050,capex,oil,ocgt,400,Euro/kW,"DIW, p. 75"
+2050,capex,lithium,battery,172,Euro/kWh,Plessmann
+2050,lifetime,wind,ohnshore,25,a,"DIW, p. 72"
+2050,lifetime,wind,offshore,25,a,"DIW, p. 72"
+2050,lifetime,solar,pv,25,a,"DIW, p. 72"
+2050,lifetime,biomass,st,30,a,"DIW, p. 72"
+2050,lifetime,coal,st,40,a,"DIW, p. 72"
+2050,lifetime,gas,ccgt,30,a,"DIW, p. 72"
+2050,lifetime,gas,ocgt,30,a,"DIW, p. 72"
+2050,lifetime,hydro,phs,50,a,"DIW, p. 72"
+2050,lifetime,hydro,ror,50,a,"DIW, p. 72"
+2050,lifetime,hydro,rsv,50,a,"DIW, p. 72"
+2050,lifetime,lignite,st,40,a,"DIW, p. 72"
+2050,lifetime,oil,ocgt,40,a,"DIW, p. 72"
+2050,lifetime,lithium,battery,10,a,"Plessmann, p. 90"
