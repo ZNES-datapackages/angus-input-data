@@ -21,6 +21,7 @@ year,parameter,carrier,tech,value,unit,source
 2030,capex,solar,pv,600,Euro/kW,DIW
 2030,capex,gas,ocgt,400,Euro/kW,DIW
 2030,capex,gas,ccgt,800,Euro/kW,DIW
+2030,capex,lithium,battery,785,Euro/kW,IWES
 2040,efficiency,biomass,st,0.4185,per unit,Own assumption
 2040,efficiency,coal,st,0.425,per unit,Own assumption
 2040,efficiency,gas,ccgt,0.53475,per unit,Own assumption
@@ -55,7 +56,7 @@ year,parameter,carrier,tech,value,unit,source
 2050,storage_capacity,lithium,battery,6.5,h,"Plessmann, p. 90"
 2050,storage_capacity,hydro,phs,8,h,"Plessmann, p. 90"
 2050,storage_capacity,air,caes,300,h,Own assumption
-2050,avf,wind,onhsore,1,per unit,Own assumption
+2050,avf,wind,onshore,1,per unit,Own assumption
 2050,avf,wind,offshore,1,per unit,Own assumption
 2050,avf,solar,pv,1,per unit,Own assumption
 2050,avf,biomass,st,0.9,per unit,Own assumption
