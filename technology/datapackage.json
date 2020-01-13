@@ -89,6 +89,10 @@
         }
     ],
     "sources": [
+	{
+	"title": "Plessmann",
+        "path": "https://www.reiner-lemoine-stiftung.de/en/pdf/dissertationen/Dissertation-Guido_Plessmann.pdf"
+	}
         {
             "title": "TYNDP2018",
             "path": "https://www.entsoe.eu/Documents/TYNDP%20documents/TYNDP2018/Scenarios%20Data%20Sets/Input%20Data.xlsx"
