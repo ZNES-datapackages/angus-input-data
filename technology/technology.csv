@@ -101,7 +101,7 @@ year,parameter,carrier,tech,value,unit,source
 2050,fom,lignite,st,30,Euro/kWa,"DIW, p.78"
 2050,fom,oil,ocgt,6,Euro/kWa,"DIW, p.78"
 2050,fom,lithium,battery,0.618,Euro/kWa,Plessmann
-2050,capex,wind,ohnshore,1075,Euro/kW,"DIW, p. 75"
+2050,capex,wind,onshore,1075,Euro/kW,"DIW, p. 75"
 2050,capex,wind,offshore,2093,Euro/kW,"DIW, p. 75"
 2050,capex,solar,pv,425,Euro/kW,"DIW, p. 75"
 2050,capex,biomass,st,1951,Euro/kW,"DIW, p. 75"
@@ -114,7 +114,7 @@ year,parameter,carrier,tech,value,unit,source
 2050,capex,lignite,st,1500,Euro/kW,"DIW, p. 75"
 2050,capex,oil,ocgt,400,Euro/kW,"DIW, p. 75"
 2050,capex,lithium,battery,172,Euro/kWh,Plessmann
-2050,lifetime,wind,ohnshore,25,a,"DIW, p. 72"
+2050,lifetime,wind,onshore,25,a,"DIW, p. 72"
 2050,lifetime,wind,offshore,25,a,"DIW, p. 72"
 2050,lifetime,solar,pv,25,a,"DIW, p. 72"
 2050,lifetime,biomass,st,30,a,"DIW, p. 72"
