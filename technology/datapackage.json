@@ -52,6 +52,56 @@
                 ]
             }
         },
+	{
+            "path": "heat.csv",
+            "profile": "tabular-data-resource",
+            "name": "heat",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "utf-8",
+            "schema": {
+                "fields": [
+		    {
+                        "name": "year",
+                        "type": "integer",
+                        "format": "default"
+                    },	
+		    {
+                        "name": "parameter",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "carrier",
+                        "type": "string",
+                        "format": "default"
+                    },
+            	    {
+                        "name": "tech",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "value",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "unit",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "source",
+                        "type": "string",
+                        "format": "default"
+                    }
+                ],
+                "missingValues": [
+                    ""
+                ]
+            }
+        },
         {
             "path": "phs.csv",
             "profile": "tabular-data-resource",
@@ -104,6 +154,10 @@
 	{
             "title": "IWES",
             "path": "http://www.fvee.de/fileadmin/publikationen/Politische_Papiere_FVEE/14.IWES_Roadmap-Speicher/14_IWES-etal_Roadmap_Speicher_Langfassung.pdf"
+        },
+        {
+            "title": "Brown2018",
+            "path": "https://doi.org/10.1016/j.energy.2018.06.222"
         },
         {
             "title": "PRIMES",

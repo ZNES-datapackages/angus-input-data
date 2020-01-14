@@ -1,0 +1,11 @@
+year,parameter,carrier,tech,value,unit,source
+2050,capex,electricity,decentral_heatpump,1400,Euro/kW,Brown2018
+2050,lifetime,electricity,decentral_heatpump,20,a,Brown2018
+2050,fom,electricity,decentral_heatpump,49,Euro/kWa,Brown2018
+2050,cop,electricity,decentral_heatpump,3,Euro/kWa,
+2050,capex,water,decentral_heatstorage,38.376,Euro/kWh,Brown2018
+2050,storage_capacity,water,decentral_heatstorage,72,h,Brown2018
+2050,lifetime,water,decentral_heatstorage,20,a,Brown2018
+2050,fom,water,decentral_heatstorage,0.38376,Euro/kWa,Brown2018
+2050,efficiency,water,decentral_heatstorage,0.81,Roundtrip,Brown2018
+2050,loss,water,decentral_heatstorage,0.014,%,Brown2018
