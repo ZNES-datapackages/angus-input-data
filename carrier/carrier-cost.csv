@@ -53,3 +53,21 @@ climate,mixed,6.7,EUR/MWh,Own Assumption
 2040DG,biomass,70,EUR/MWh,Own Assumption
 2040DG,waste,6.7,EUR/MWh,Own Assumption
 2040DG,mixed,6.7,EUR/MWh,Own Assumption
+2030ST,uranium,1.692,EUR/MWh,TYNDP2018
+2030ST,lignite,3.96,EUR/MWh,TYNDP2018
+2030ST,coal,9.72,EUR/MWh,TYNDP2018
+2030ST,gas,31.68,EUR/MWh,TYNDP2018
+2030ST,oil,82.84,EUR/MWh,TYNDP2018
+2030ST,co2,84.3,EUR/t,TYNDP2018
+2030ST,biomass,30,EUR/MWh,Own Assumption
+2030ST,waste,6.7,EUR/MWh,Own Assumption
+2030ST,mixed,6.7,EUR/MWh,Own Assumption
+2030DG,uranium,1.692,EUR/MWh,TYNDP2018
+2030DG,lignite,3.96,EUR/MWh,TYNDP2018
+2030DG,coal,9.72,EUR/MWh,TYNDP2018
+2030DG,gas,31.68,EUR/MWh,TYNDP2018
+2030DG,oil,78.48,EUR/MWh,TYNDP2018
+2030DG,co2,50,EUR/t,TYNDP2018
+2030DG,biomass,30,EUR/MWh,Own Assumption
+2030DG,waste,6.7,EUR/MWh,Own Assumption
+2030DG,mixed,6.7,EUR/MWh,Own Assumption
