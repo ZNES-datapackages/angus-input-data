@@ -84,6 +84,7 @@ year,parameter,carrier,tech,value,unit,source
 2050,vom,hydro,ror,0,Euro/Mwh,"DIW, p. 78"
 2050,vom,hydro,rsv,0,Euro/Mwh,"DIW, p. 78"
 2050,vom,lignite,st,7,Euro/Mwh,"DIW, p. 78"
+2050,vom,uranium,st,8.5,Euro/Mwh,"DIW, p. 78, AVG"
 2050,vom,oil,ocgt,3,Euro/Mwh,"DIW, p. 78"
 2050,vom,mixed,st,5,Euro/Mwh,Own assumption
 2050,vom,waste,st,10,Euro/Mwh,Own assumption
