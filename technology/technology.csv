@@ -13,8 +13,8 @@ year,parameter,carrier,tech,value,unit,source
 2030,efficiency,mixed,st,0.26,per unit,Own assumption
 2030,efficiency,lithium,battery,0.85,per unit,roundtrip;Own assumption
 2030,efficiency,air,caes,0.57,per unit,roundtrip;Own assumption
-2030,storage_capacity,lithium,battery,5,h,Own assumption
-2030,storage_capacity,hydro,phs,10,h,Own assumption
+2030,storage_capacity,lithium,battery,6.5,h,Plessmann
+2030,storage_capacity,hydro,phs,8,h,Plessmann
 2030,storage_capacity,air,caes,300,h,Own assumption
 2030,capex,wind,onshore,1182,Euro/kW,DIW
 2030,capex,wind,offshore,2506,Euro/kW,DIW
@@ -36,8 +36,8 @@ year,parameter,carrier,tech,value,unit,source
 2040,efficiency,mixed,st,0.28,per unit,Own assumption
 2040,efficiency,lithium,battery,0.885,per unit,Own assumption
 2040,efficiency,air,caes,0.57,per unit,roundtrip; Own assumption
-2040,storage_capacity,lithium,battery,5,h,Own assumption
-2040,storage_capacity,hydro,phs,10,h,Own assumption
+2040,storage_capacity,lithium,battery,6.5,h,Plessmann
+2040,storage_capacity,hydro,phs,8,h,Plessmann
 2040,storage_capacity,air,caes,300,h,Own assumption
 2050,efficiency,biomass,st,0.487,per unit,DIW
 2050,efficiency,coal,st,0.45,per unit,DIW
