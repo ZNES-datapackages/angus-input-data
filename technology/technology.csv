@@ -134,15 +134,15 @@ year,parameter,carrier,tech,value,unit,source
 2050,storage_capacity,vanadium,redox,3.3,h,ZNES
 2050,storage_capacity,hydrogen,hydrogen,168,h,eGo
 2050,storage_capacity,air,acaes,3,h,ZNES
-2050,lifetime,vanadium,redox,,,
-2050,lifetime,hydrogen,hydrogen,,,
-2050,lifetime,air,acaes,,,
-2050,capex,vanadium,redox,,,
-2050,capex,hydrogen,hydrogen,,,
-2050,capex,air,caes-cavern,,,
-2050,fom,vanadium,redox,,,
-2050,fom,hydrogen,hydrogen,,,
-2050,fom,air,acaes,,,
-2050,vom,vanadium,redox,,,
-2050,vom,hydrogen,hydrogen,,,
-2050,vom,air,acaes,,,
+2050,lifetime,vanadium,redox,,a,
+2050,lifetime,hydrogen,hydrogen,,a,
+2050,lifetime,air,acaes,,a,
+2050,capex,vanadium,redox,,Euro/kWh,
+2050,capex,hydrogen,hydrogen,,Euro/kWh,
+2050,capex,air,caes-cavern,,Euro/kWh,
+2050,fom,vanadium,redox,,Euro/kWa,
+2050,fom,hydrogen,hydrogen,,Euro/kWa,
+2050,fom,air,acaes,,Euro/kWa,
+2050,vom,vanadium,redox,0,Euro/Mwh,Own assumption
+2050,vom,hydrogen,hydrogen,0,Euro/Mwh,Own assumption
+2050,vom,air,acaes,0,Euro/Mwh,Own assumption

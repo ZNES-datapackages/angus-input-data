@@ -52,7 +52,7 @@
             }
         },
 	{
-            "path": "storage.capacities.csv",
+            "path": "storage-capacities.csv",
             "profile": "tabular-data-resource",
             "name": "storage-capacities",
             "format": "csv",
