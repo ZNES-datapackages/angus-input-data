@@ -12,10 +12,11 @@ year,parameter,carrier,tech,value,unit,source
 2030,efficiency,waste,st,0.26,per unit,Own assumption
 2030,efficiency,mixed,st,0.26,per unit,Own assumption
 2030,efficiency,lithium,battery,0.85,per unit,roundtrip;Own assumption
-2030,efficiency,air,pcaes,0.57,per unit,roundtrip;Own assumption
+2030,efficiency,cavern,acaes,0.7,per unit,roundtrip;ZNES
 2030,max_hours,lithium,battery,6.5,h,Plessmann
 2030,max_hours,hydro,phs,8,h,Plessmann
 2030,max_hours,porous,acaes,300,h,Own assumption
+2030,max_hours,cavern,acaes,3,h,ZNES
 2030,capex,wind,onshore,1182,Euro/kW,DIW
 2030,capex,wind,offshore,2506,Euro/kW,DIW
 2030,capex,solar,pv,600,Euro/kW,DIW
@@ -36,9 +37,11 @@ year,parameter,carrier,tech,value,unit,source
 2040,efficiency,mixed,st,0.28,per unit,Own assumption
 2040,efficiency,lithium,battery,0.885,per unit,Own assumption
 2040,efficiency,porous,acaes,0.57,per unit,roundtrip; Own assumption
+2040,efficiency,cavern,acaes,0.7,per unit,roundtrip; ZNES
 2040,max_hours,lithium,battery,6.5,h,Plessmann
 2040,max_hours,hydro,phs,8,h,Plessmann
 2040,max_hours,porous,acaes,300,h,Own assumption
+2040,max_hours,cavern,acaes,3,h,ZNES
 2050,efficiency,biomass,st,0.487,per unit,DIW
 2050,efficiency,coal,st,0.45,per unit,DIW
 2050,efficiency,gas,ccgt,0.5695,per unit,Avg; DIW
@@ -55,7 +58,7 @@ year,parameter,carrier,tech,value,unit,source
 2050,efficiency,porous,acaes,0.57,per unit,roundtrip; Own assumption
 2050,max_hours,lithium,battery,6.5,h,"Plessmann, p. 90"
 2050,max_hours,hydro,phs,8,h,"Plessmann, p. 90"
-2050,max_hours,air,pcaes,300,h,Own assumption
+2050,max_hours,porous,acaes,300,h,Own assumption
 2050,avf,wind,onshore,1,per unit,Own assumption
 2050,avf,wind,offshore,1,per unit,Own assumption
 2050,avf,solar,pv,1,per unit,Own assumption
