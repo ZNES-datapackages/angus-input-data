@@ -1,2 +1,3 @@
 scenario,carrier,tech,year,value,unit,source
 ANGUS2030,heat,load-decentral,2030,87000,Gwh,NEP2019
+ANGUS2050,heat,load-decentral,2050,184000,Gwh,Rescue (GS)
