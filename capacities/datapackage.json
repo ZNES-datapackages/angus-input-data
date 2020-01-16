@@ -51,6 +51,56 @@
                 ]
             }
         },
+	{
+            "path": "storage.capacities.csv",
+            "profile": "tabular-data-resource",
+            "name": "storage-capacities",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "utf-8",
+            "schema": {
+                "fields": [
+		    {
+                        "name": "year",
+                        "type": "number",
+                        "format": "default"
+                    },	
+                    {
+                        "name": "country",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "acaes",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "hydrogen",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "lithium",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "phs",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "redox",
+                        "type": "number",
+                        "format": "default"
+                    }
+                ],
+                "missingValues": [
+                    ""
+                ]
+            }
+        },
        {
             "path": "german-heat-system.csv",
             "profile": "tabular-data-resource",
@@ -116,6 +166,10 @@
         {
             "title": "NEP2019",
             "path": "www.netzentwicklungsplan.de"
+        },
+        {
+            "title": "ZNES",
+            "path": "https://github.com/znes/FlEnS/tree/master/Socio-ecologic"
         }
     ]
 }
