@@ -139,7 +139,7 @@ year,parameter,carrier,tech,value,unit,source
 2050,lifetime,hydrogen,storage,22.5,a,Schill2018
 2050,lifetime,cavern,acaes,30,a,Schill2018
 2050,capex_energy,redox,battery,70,Euro/kWh,Schill2018
-2050,capex_energy,hydrogen,hydrogen,0.2,Euro/kWh,Schill2018
+2050,capex_energy,hydrogen,storage,0.2,Euro/kWh,Schill2018
 2050,capex_energy,cavern,acaes,40,Euro/kWh,Schill2018
 2050,capex_power,redox,battery,600,Euro/kW,Schill2018
 2050,capex_power,hydrogen,hydrogen,1000,Euro/kW,Schill2018
