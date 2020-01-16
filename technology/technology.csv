@@ -101,7 +101,7 @@ year,parameter,carrier,tech,value,unit,source
 2050,fom,hydro,rsv,20,Euro/kWa,"DIW, p.78"
 2050,fom,lignite,st,30,Euro/kWa,"DIW, p.78"
 2050,fom,oil,ocgt,6,Euro/kWa,"DIW, p.78"
-2050,fom,lithium,battery,0.618,Euro/kWa,Plessmann
+2050,fom,lithium,battery,10,Euro/kWha,Schill2018
 2050,capex,wind,onshore,1075,Euro/kW,"DIW, p. 75"
 2050,capex,wind,offshore,2093,Euro/kW,"DIW, p. 75"
 2050,capex,solar,pv,425,Euro/kW,"DIW, p. 75"
@@ -114,7 +114,8 @@ year,parameter,carrier,tech,value,unit,source
 2050,capex,hydro,rsv,2000,Euro/kW,"DIW, p. 75"
 2050,capex,lignite,st,1500,Euro/kW,"DIW, p. 75"
 2050,capex,oil,ocgt,400,Euro/kW,"DIW, p. 75"
-2050,capex,lithium,battery,172,Euro/kWh,Plessmann
+2050,capex_energy,lithium,battery,187,Euro/kWh,Schill2018
+2050,capex_power,lithium,battery,35,Euro/kWh,Schill2018
 2050,lifetime,wind,onshore,25,a,"DIW, p. 72"
 2050,lifetime,wind,offshore,25,a,"DIW, p. 72"
 2050,lifetime,solar,pv,25,a,"DIW, p. 72"
@@ -134,15 +135,18 @@ year,parameter,carrier,tech,value,unit,source
 2050,storage_capacity,vanadium,redox,3.3,h,ZNES
 2050,storage_capacity,hydrogen,hydrogen,168,h,eGo
 2050,storage_capacity,air,acaes,3,h,ZNES
-2050,lifetime,vanadium,redox,,a,
-2050,lifetime,hydrogen,hydrogen,,a,
-2050,lifetime,air,acaes,,a,
-2050,capex,vanadium,redox,,Euro/kWh,
-2050,capex,hydrogen,hydrogen,,Euro/kWh,
-2050,capex,air,caes-cavern,,Euro/kWh,
-2050,fom,vanadium,redox,,Euro/kWa,
-2050,fom,hydrogen,hydrogen,,Euro/kWa,
-2050,fom,air,acaes,,Euro/kWa,
-2050,vom,vanadium,redox,0,Euro/Mwh,Own assumption
-2050,vom,hydrogen,hydrogen,0,Euro/Mwh,Own assumption
-2050,vom,air,acaes,0,Euro/Mwh,Own assumption
+2050,lifetime,vanadium,redox,25,a,Schill2018
+2050,lifetime,hydrogen,hydrogen,22.5,a,Schill2018
+2050,lifetime,air,acaes,30,a,Schill2018
+2050,capex_energy,vanadium,redox,70,Euro/kWh,Schill2018
+2050,capex_energy,hydrogen,hydrogen,0.2,Euro/kWh,Schill2018
+2050,capex_energy,air,acaes,40,Euro/kWh,Schill2018
+2050,capex_power,vanadium,redox,600,Euro/kW,Schill2018
+2050,capex_power,hydrogen,hydrogen,1000,Euro/kW,Schill2018
+2050,capex_power,air,acaes,750,Euro/kW,Schill2018
+2050,fom,vanadium,redox,10,Euro/kWha,Schill2018
+2050,fom,hydrogen,hydrogen,10,Euro/kWha,Schill2018
+2050,fom,air,acaes,10,Euro/kWha,Schill2018
+2050,vom,vanadium,redox,1,Euro/Mwh,Schill2018
+2050,vom,hydrogen,hydrogen,1,Euro/Mwh,Schill2018
+2050,vom,air,acaes,1,Euro/Mwh,Schill2018
