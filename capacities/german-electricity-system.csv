@@ -15,8 +15,8 @@ ANGUS2030,lithium,battery,2030,12500,MW,NEP2019
 ANGUS2030,hydrogen,storage,2030,3000,MW,NEP2019
 ANGUS2030,hydro,phs,2030,11600,MW,NEP2019
 ANGUS2030,electricity,load,2030,547000,Gwh,"NEP2019, 576TWh - Hpel"
-ANGUS2050,wind,onshore,2050,98326,MW,eHighway
-ANGUS2050,wind,offshore,2050,27200,MW,eHighway
+ZNES2050,wind,onshore,2050,98326,MW,eHighway
+ZNES2050,wind,offshore,2050,27200,MW,eHighway
 ZNES2050,biomass,st,2050,27750,MW,eHighway
 ZNES2050,solar,pv,2050,98599,MW,eHighway
 ZNES2050,gas,ocgt,2050,8580,MW,eHighway
