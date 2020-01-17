@@ -46,4 +46,4 @@ ANGUS2050a,hydrogen,storage,2050,10100.01,MW,ANGUS
 ANGUS2050a,redox,battery,2050,930,MW,ANGUS
 ANGUS2050a,cavern,acaes,2050,3430.99,MW,ANGUS
 ANGUS2050a,hydro,phs,2050,12799,MW,ANGUS
-ANGUS2050a,electricity,load,2050,544000,Gwh,RESCUE (GS)
+ANGUS2050a,electricity,load,2050,665705,Gwh,eHighway
