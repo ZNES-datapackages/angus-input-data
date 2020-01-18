@@ -15,6 +15,11 @@
                         "type": "string",
                         "format": "default"
                     },	
+ 		    {
+                        "name": "year",
+                        "type": "number",
+                        "format": "default"
+                    },	
 		    {
                         "name": "rsv",
                         "type": "number",
@@ -43,6 +48,11 @@
                     {
                         "name": "rsv-max-hours",
                         "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "source",
+                        "type": "string",
                         "format": "default"
                     }
                 ],
