@@ -1,6 +1,7 @@
 scenario,carrier,tech,year,value,unit,source
 ANGUS2030,wind,onshore,2030,85500,MW,NEP2019
 ANGUS2030,wind,offshore,2030,17000,MW,NEP2019
+ANGUS2030,hydro,ror,2030,4233,MW,eHighway
 ANGUS2030,biomass,st,2030,6000,MW,NEP2019
 ANGUS2030,solar,pv,2030,104500,MW,NEP2019
 ANGUS2030,gas,ocgt,2030,10000,MW,NEP2019
@@ -17,6 +18,7 @@ ANGUS2030,hydro,phs,2030,11600,MW,NEP2019
 ANGUS2030,electricity,load,2030,547000,Gwh,"NEP2019, 576TWh - Hpel"
 ZNES2050,wind,onshore,2050,98326,MW,eHighway
 ZNES2050,wind,offshore,2050,27200,MW,eHighway
+ZNES2050,hydor,ror,2050,4233,MW,eHighway
 ZNES2050,biomass,st,2050,27750,MW,eHighway
 ZNES2050,solar,pv,2050,98599,MW,eHighway
 ZNES2050,gas,ccgt,2050,8580,MW,eHighway
@@ -33,6 +35,7 @@ ZNES2050,hydro,phs,2050,12799,MW,eHighway
 ZNES2050,electricity,load,2050,665705,Gwh,eHighway
 ANGUS2050a,wind,onshore,2050,130000,MW,ANGUS
 ANGUS2050a,wind,offshore,2050,27200,MW,ANGUS
+ANGUS2050a,hydor,ror,2050,4233,MW,eHighway
 ANGUS2050a,biomass,st,2050,27750,MW,ANGUS
 ANGUS2050a,solar,pv,2050,150000,MW,ANGUS
 ANGUS2050a,gas,ccgt,2050,8580,MW,ANGUS
