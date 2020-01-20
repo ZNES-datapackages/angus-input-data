@@ -1,31 +1,22 @@
 scenario,carrier,value,unit,source
-2030C,uranium,1.692,EUR/MWh,TYNDP2018
-2030C,lignite,5.6,EUR/MWh,NEP2019
-2030C,coal,8.4,EUR/MWh,NEP2019
-2030C,gas,26.4,EUR/MWh,NEP2019
-2030C,oil,48.3,EUR/MWh,NEP2019
-2030C,co2,29.4,EUR/t,NEP2019
-2030C,biomass,5,EUR/MWh,Own Assumption
-2030C,waste,6.7,EUR/MWh,IRENA2015
-2030C,mixed,6.7,EUR/MWh,Own Assumption
-climate,uranium,1.692,EUR/MWh,TYNDP2018
-climate,lignite,5.6,EUR/MWh,NEP2019
-climate,coal,8.4,EUR/MWh,NEP2019
-climate,gas,26.4,EUR/MWh,NEP2019
-climate,oil,48.3,EUR/MWh,NEP2019
-climate,co2,100,EUR/t,Own Assumption
-climate,biomass,27.29,EUR/MWh,Prognos2013
-climate,waste,6.7,EUR/MWh,IRENA2015
-climate,mixed,6.7,EUR/MWh,Own Assumption
-2050-100RE,uranium,1.692,EUR/MWh,Own Assumption
-2050-100RE,lignite,6,EUR/MWh,Own Assumption
-2050-100RE,coal,8,EUR/MWh,Own Assumption
-2050-100RE,gas,54,EUR/MWh,Own Assumption
-2050-100RE,oil,60,EUR/MWh,Own Assumption
-2050-100RE,co2,150,EUR/t,Own Assumption
-2050-100RE,biomass,70,EUR/MWh,Own Assumption
-2050-100RE,waste,30,EUR/MWh,Own Assumption
-2050-100RE,mixed,6.7,EUR/MWh,Own Assumption
+NEP2030C,uranium,1.692,EUR/MWh,TYNDP2018
+NEP2030C,lignite,5.6,EUR/MWh,NEP2019
+NEP2030C,coal,8.4,EUR/MWh,NEP2019
+NEP2030C,gas,26.4,EUR/MWh,NEP2019
+NEP2030C,oil,48.3,EUR/MWh,NEP2019
+NEP2030C,co2,29.4,EUR/t,NEP2019
+NEP2030C,biomass,5,EUR/MWh,Own Assumption
+NEP2030C,waste,6.7,EUR/MWh,IRENA2015
+NEP2030C,mixed,6.7,EUR/MWh,Own Assumption
+ZNES2050,uranium,1.692,EUR/MWh,Own Assumption
+ZNES2050,lignite,6,EUR/MWh,Own Assumption
+ZNES2051,coal,8,EUR/MWh,Own Assumption
+ZNES2051,gas,54,EUR/MWh,Own Assumption
+ZNES2052,oil,60,EUR/MWh,Own Assumption
+ZNES2052,co2,150,EUR/t,Own Assumption
+ZNES2053,biomass,70,EUR/MWh,Own Assumption
+ZNES2053,waste,30,EUR/MWh,Own Assumption
+ZNES2054,mixed,6.7,EUR/MWh,Own Assumption
 2040GCA,uranium,1.692,EUR/MWh,TYNDP2018
 2040GCA,lignite,3.96,EUR/MWh,TYNDP2018
 2040GCA,coal,6.48,EUR/MWh,TYNDP2018
