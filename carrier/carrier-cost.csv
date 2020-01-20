@@ -10,13 +10,13 @@ NEP2030C,waste,6.7,EUR/MWh,IRENA2015
 NEP2030C,mixed,6.7,EUR/MWh,Own Assumption
 ZNES2050,uranium,1.692,EUR/MWh,Own Assumption
 ZNES2050,lignite,6,EUR/MWh,Own Assumption
-ZNES2051,coal,8,EUR/MWh,Own Assumption
-ZNES2051,gas,54,EUR/MWh,Own Assumption
-ZNES2052,oil,60,EUR/MWh,Own Assumption
-ZNES2052,co2,150,EUR/t,Own Assumption
-ZNES2053,biomass,70,EUR/MWh,Own Assumption
-ZNES2053,waste,30,EUR/MWh,Own Assumption
-ZNES2054,mixed,6.7,EUR/MWh,Own Assumption
+ZNES2050,coal,8,EUR/MWh,Own Assumption
+ZNES2050,gas,54,EUR/MWh,Own Assumption
+ZNES2050,oil,60,EUR/MWh,Own Assumption
+ZNES2050,co2,150,EUR/t,Own Assumption
+ZNES2050,biomass,70,EUR/MWh,Own Assumption
+ZNES2050,waste,30,EUR/MWh,Own Assumption
+ZNES2050,mixed,6.7,EUR/MWh,Own Assumption
 2040GCA,uranium,1.692,EUR/MWh,TYNDP2018
 2040GCA,lignite,3.96,EUR/MWh,TYNDP2018
 2040GCA,coal,6.48,EUR/MWh,TYNDP2018
