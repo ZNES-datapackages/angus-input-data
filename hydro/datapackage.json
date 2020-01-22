@@ -50,6 +50,11 @@
                         "type": "number",
                         "format": "default"
                     },
+ 	            {
+                        "name": "rsv-factor",
+                        "type": "number",
+                        "format": "default"
+                    }
                     {
                         "name": "source",
                         "type": "string",
