@@ -48,6 +48,7 @@ scenario,carrier,tech,year,value,unit,source
 2050ZNES,lithium,battery,2050,15650,MW,ZNES
 2050ZNES,hydrogen,storage,2050,10100.01,MW,ZNES
 2050ZNES,cavern,acaes,2050,3430.99,MW,ZNES
+2050ZNES,redox,battery,2050,930,MW,ZNES
 2050ZNES,hydro,phs,2050,12799,MW,eHighway
 2050ZNES,electricity,load,2050,665705,Gwh,eHighway
 2050ANGUS,wind,onshore,2050,98326,MW,eHighway
@@ -65,5 +66,6 @@ scenario,carrier,tech,year,value,unit,source
 2050ANGUS,lithium,battery,2050,15650,MW,ZNES
 2050ANGUS,hydrogen,storage,2050,10100.01,MW,ZNES
 2050ANGUS,cavern,acaes,2050,3430.99,MW,ZNES
+2050ANGUS,redox,battery,2050,930,MW,ZNES
 2050ANGUS,hydro,phs,2050,12799,MW,eHighway
 2050ANGUS,electricity,load,2050,665705,Gwh,eHighway
