@@ -4,7 +4,7 @@ year,parameter,carrier,tech,value,unit,source
 2050,fom,decentral_heat,hp,49,Euro/kWa,Brown2018
 2050,cop,decentral_heat,hp,3,Euro/kWa,
 2050,capex,decentral_heat,tes,38.376,Euro/kWh,Brown2018
-2050,storage_capacity,decentral_heat,tes,72,h,Brown2018
+2050,max_hours,decentral_heat,tes,72,h,Brown2018
 2050,lifetime,decentral_heat,tes,20,a,Brown2018
 2050,fom,decentral_heat,tes,0.38376,Euro/kWa,Brown2018
 2050,efficiency,decentral_heat,tes,0.81,Roundtrip,Brown2018
