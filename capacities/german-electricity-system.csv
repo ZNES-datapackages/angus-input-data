@@ -36,7 +36,7 @@ scenario,carrier,tech,year,value,unit,source
 2050ZNES,wind,onshore,2050,98326,MW,eHighway
 2050ZNES,wind,offshore,2050,27200,MW,eHighway
 2050ZNES,other,res,2050,1300,MW,NEP2019
-2050ZNES,hydor,ror,2050,4233,MW,eHighway
+2050ZNES,hydro,ror,2050,4233,MW,eHighway
 2050ZNES,biomass,st,2050,27750,MW,eHighway
 2050ZNES,solar,pv,2050,98599,MW,eHighway
 2050ZNES,gas,ccgt,2050,8580,MW,eHighway
