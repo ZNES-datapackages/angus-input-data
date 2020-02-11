@@ -52,7 +52,7 @@ scenario,carrier,tech,year,value,unit,source
 2050ZNES,hydro,phs,2050,12799,MW,eHighway
 2050ZNES,electricity,load,2050,665705,Gwh,eHighway
 2050ANGUS,wind,onshore,2050,98326,MW,eHighway
-2050ANGUS,wind,offshore,2050,27200,MW,eHighway
+2050ANGUS,wind,offshore,2050,33500,MW,TYNDP2018-2040GCA
 2050ANGUS,hydro,ror,2050,4233,MW,eHighway
 2050ANGUS,biomass,st,2050,27750,MW,eHighway
 2050ANGUS,other,res,2050,1200,MW,NEP2019
@@ -68,4 +68,4 @@ scenario,carrier,tech,year,value,unit,source
 2050ANGUS,cavern,acaes,2050,3430.99,MW,ZNES
 2050ANGUS,redox,battery,2050,930,MW,ZNES
 2050ANGUS,hydro,phs,2050,12799,MW,eHighway
-2050ANGUS,electricity,load,2050,665705,Gwh,eHighway
+2050ANGUS,electricity,load,2050,571000,Gwh,eHighway -95 Twh hp el 

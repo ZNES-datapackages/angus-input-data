@@ -1,4 +1,8 @@
 scenario,carrier,tech,year,value,unit,source
 2030NEPC,decentral_heat,load,2030,87000,Gwh,NEP2019
-2040GCA,decentral_heat,load,2040,195000,Gwh,Rescue (GL)
-2050ZNES,decentral_heat,load,2050,284000,Gwh,Rescue (GL)
+2030GL,decentral_heat,load,2030,57000,Gwh,Rescue (GL)
+2030GS,decentral_heat,load,2030,95000,Gwh,Rescue (GS)
+2040GL,decentral_heat,load,2040,195000,Gwh,Rescue (GL)
+2040GS,decentral_heat,load,2040,166000,Gwh,Rescue (GS)
+2050GL,decentral_heat,load,2050,284000,Gwh,Rescue (GL)
+2050GS,decentral_heat,load,2050,184000,Gwh,Rescue (GS)
