@@ -154,7 +154,7 @@
       
     ],
     "name": "Scenario Data",
-    "description": "",
+    "description": "Storage capacities (except PHS) are 0.33 of 2050 for 2030 and 0.66 of 2050 for 2040. PHS is based on eHighway data for 2050 and TYNDP2018 data for 2030 and 2040.",
     "contributors": [
         {
             "title": "'Simon Hilpert'",
