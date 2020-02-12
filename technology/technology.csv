@@ -14,6 +14,7 @@ year,parameter,carrier,tech,value,unit,source
 2030,efficiency,lithium,battery,0.85,per unit,roundtrip;Own assumption
 2030,efficiency,cavern,acaes,0.7,per unit,roundtrip;ZNES
 2030,efficiency,hydrogen,storage,0.4,per unit,roundtrip;ZNES
+2030,efficiency,redox,storage,0.75,per unit,roundtrip;ZNES
 2030,max_hours,lithium,battery,6.5,h,Plessmann
 2030,max_hours,hydro,phs,8,h,Plessmann
 2030,max_hours,porous,acaes,300,h,Own assumption
@@ -42,6 +43,7 @@ year,parameter,carrier,tech,value,unit,source
 2040,efficiency,porous,acaes,0.57,per unit,roundtrip; Own assumption
 2040,efficiency,cavern,acaes,0.7,per unit,roundtrip; ZNES
 2040,efficiency,hydrogen,storage,0.4,per unit,roundtrip;ZNES
+2040,efficiency,redox,storage,0.75,per unit,roundtrip;ZNES
 2040,max_hours,lithium,battery,6.5,h,Plessmann
 2040,max_hours,hydrogen,storage,168,h,eGo
 2040,max_hours,hydro,phs,8,h,Plessmann
