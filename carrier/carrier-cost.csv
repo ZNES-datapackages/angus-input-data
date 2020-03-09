@@ -62,3 +62,12 @@ scenario,carrier,value,unit,source
 2030DG,biomass,30.32,EUR/MWh,HeatRoadMap
 2030DG,waste,6.7,EUR/MWh,Own Assumption
 2030DG,mixed,6.7,EUR/MWh,Own Assumption
+2030EUCO,uranium,1.692,EUR/MWh,TYNDP2018
+2030EUCO,lignite,7.92,EUR/MWh,TYNDP2018
+2030EUCO,coal,15.48,EUR/MWh,TYNDP2018
+2030EUCO,gas,24.84,EUR/MWh,TYNDP2018
+2030EUCO,oil,73.8,EUR/MWh,TYNDP2018
+2030EUCO,co2,27,EUR/t,TYNDP2018
+2030EUCO,biomass,30.32,EUR/MWh,HeatRoadMap
+2030EUCO,waste,6.7,EUR/MWh,Own Assumption
+2030EUCO,mixed,6.7,EUR/MWh,Own Assumption
