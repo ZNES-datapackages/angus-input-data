@@ -1,163 +1,206 @@
 year,parameter,carrier,tech,value,unit,source
+2030,capex,gas,ccgt,800.0,Euro/kW,DIW
+2030,capex,gas,ocgt,400.0,Euro/kW,DIW
+2030,capex,lithium,battery,785.0,Euro/kW,IWES
+2030,capex,solar,pv,600.0,Euro/kW,DIW
+2030,capex,wind,offshore,2506.0,Euro/kW,DIW
+2030,capex,wind,onshore,1182.0,Euro/kW,DIW
+2030,capex_energy,cavern,acaes,40.0,Euro/kWh,IWES
+2030,capex_energy,hydrogen,storage,0.2,Euro/kWh,IWES
+2030,capex_energy,lithium,battery,300.0,Euro/kWh,IWES
+2030,capex_energy,redox,battery,150.0,Euro/kWh,IWES
+2030,capex_power,cavern,acaes,825.0,Euro/kW,IWES
+2030,capex_power,hydrogen,storage,1550.0,Euro/kW,IWES
+2030,capex_power,lithium,battery,65.0,Euro/kW,IWES
+2030,capex_power,redox,battery,1000.0,Euro/kW,IWES
 2030,efficiency,biomass,st,0.35,per unit,DIW
+2030,efficiency,cavern,acaes,0.7,per unit,IWES
 2030,efficiency,coal,st,0.4,per unit,TYNDP2018
 2030,efficiency,gas,ccgt,0.5,per unit,TYNDP2018
 2030,efficiency,gas,ocgt,0.38,per unit,TYNDP2018
 2030,efficiency,hydro,phs,0.75,per unit,roundtrip; DIW
 2030,efficiency,hydro,ror,0.9,per unit,DIW
 2030,efficiency,hydro,rsv,0.9,per unit,DIW
+2030,efficiency,hydrogen,storage,0.32,per unit,IWES
 2030,efficiency,lignite,st,0.4,per unit,TYNDP2018
+2030,efficiency,lithium,battery,0.9,per unit,IWES
+2030,efficiency,mixed,st,0.26,per unit,Own assumption
 2030,efficiency,oil,ocgt,0.35,per unit,TYNDP2018
+2030,efficiency,porous,acaes,0.5,per unit,Own assumption (2050)
+2030,efficiency,redox,battery,0.74,per unit,IWES
 2030,efficiency,uranium,st,0.33,per unit,TYNDP2018
 2030,efficiency,waste,st,0.26,per unit,Own assumption
-2030,efficiency,mixed,st,0.26,per unit,Own assumption
-2030,efficiency,lithium,battery,0.85,per unit,roundtrip;Own assumption
-2030,efficiency,cavern,acaes,0.7,per unit,roundtrip;ZNES
-2030,efficiency,hydrogen,storage,0.4,per unit,roundtrip;ZNES
-2030,efficiency,redox,battery,0.75,per unit,roundtrip;ZNES
-2030,max_hours,lithium,battery,6.5,h,Plessmann
-2030,max_hours,hydro,phs,8,h,Plessmann
-2030,max_hours,porous,acaes,300,h,Own assumption
-2030,max_hours,cavern,acaes,3,h,ZNES
-2030,max_hours,hydrogen,storage,168,h,eGo
-2030,max_hours,redox,battery,3.3,h,ZNES
-2030,capex,wind,onshore,1182,Euro/kW,DIW
-2030,capex,wind,offshore,2506,Euro/kW,DIW
-2030,capex,solar,pv,600,Euro/kW,DIW
-2030,capex,gas,ocgt,400,Euro/kW,DIW
-2030,capex,gas,ccgt,800,Euro/kW,DIW
-2030,capex,lithium,battery,785,Euro/kW,IWES
+2030,fom,cavern,acaes,10.0,Euro/kWha,Own assumption (2050)
+2030,fom,hydrogen,storage,10.0,Euro/kWha,Own assumption (2050)
+2030,fom,lithium,battery,10.0,Euro/kWha,Own assumption (2050)
+2030,fom,redox,battery,10.0,Euro/kWha,Own assumption (2050)
+2030,lifetime,cavern,acaes,30.0,a,IWES
+2030,lifetime,hydrogen,storage,22.5,a,Own assumption
+2030,lifetime,lithium,battery,12.0,a,IWES
+2030,lifetime,redox,battery,25.0,a,IWES
+2030,max_hours,cavern,acaes,7.0,h,Own assumption (2050)
+2030,max_hours,hydro,phs,8.0,h,Own assumption (2050)
+2030,max_hours,hydrogen,storage,168.0,h,Own assumption (2050)
+2030,max_hours,lithium,battery,6.5,h,Own assumption (2050)
+2030,max_hours,porous,acaes,300.0,h,Own assumption (2050)
+2030,max_hours,redox,battery,3.3,h,Own assumption (2050)
+2030,vom,cavern,acaes,1.0,Euro/Mwh,Own assumption (2050)
+2030,vom,hydrogen,storage,1.0,Euro/Mwh,Own assumption (2050)
+2030,vom,lithium,battery,1.0,Euro/Mwh,Own assumption (2050)
+2030,vom,redox,battery,1.0,Euro/Mwh,Own assumption (2050)
+2040,capex_energy,cavern,acaes,40.0,Euro/kWh,Own assumption (2050)
+2040,capex_energy,hydrogen,storage,0.2,Euro/kWh,Own assumption (2050)
+2040,capex_energy,lithium,battery,187.0,Euro/kWh,Own assumption (2050)
+2040,capex_energy,redox,battery,70.0,Euro/kWh,Own assumption (2050)
+2040,capex_power,cavern,acaes,750.0,Euro/kW,Own assumption (2050)
+2040,capex_power,hydrogen,storage,1400.0,Euro/kW,IWES 2050
+2040,capex_power,lithium,battery,35.0,Euro/kWh,Own assumption (2050)
+2040,capex_power,redox,battery,600.0,Euro/kW,Own assumption (2050)
 2040,efficiency,biomass,st,0.4185,per unit,Own assumption
+2040,efficiency,cavern,acaes,0.73,per unit,Own assumption (2050)
 2040,efficiency,coal,st,0.425,per unit,Own assumption
 2040,efficiency,gas,ccgt,0.53475,per unit,Own assumption
 2040,efficiency,gas,ocgt,0.373,per unit,Own assumption
 2040,efficiency,hydro,phs,0.75,per unit,roundtrip; DIW
 2040,efficiency,hydro,ror,0.9,per unit,DIW
 2040,efficiency,hydro,rsv,0.9,per unit,DIW
+2040,efficiency,hydrogen,storage,0.46,per unit,Own assumption (2050)
 2040,efficiency,lignite,st,0.4,per unit,Own assumption
+2040,efficiency,lithium,battery,0.92,per unit,Own assumption (2050)
+2040,efficiency,mixed,st,0.28,per unit,Own assumption
 2040,efficiency,oil,ocgt,0.373,per unit,Own assumption
+2040,efficiency,porous,acaes,0.56,per unit,Own assumption (2050)
+2040,efficiency,redox,battery,0.8,per unit,Own assumption (2050)
 2040,efficiency,uranium,st,0.335,per unit,Own assumption
 2040,efficiency,waste,st,0.26,per unit,Own assumption
-2040,efficiency,mixed,st,0.28,per unit,Own assumption
-2040,efficiency,lithium,battery,0.885,per unit,Own assumption
-2040,efficiency,porous,acaes,0.57,per unit,roundtrip; Own assumption
-2040,efficiency,cavern,acaes,0.7,per unit,roundtrip; ZNES
-2040,efficiency,hydrogen,storage,0.4,per unit,roundtrip;ZNES
-2040,efficiency,redox,battery,0.75,per unit,roundtrip;ZNES
-2040,max_hours,lithium,battery,6.5,h,Plessmann
-2040,max_hours,hydrogen,storage,168,h,eGo
-2040,max_hours,hydro,phs,8,h,Plessmann
-2040,max_hours,porous,acaes,300,h,Own assumption
-2040,max_hours,cavern,acaes,3,h,ZNES
-2040,max_hours,redox,battery,3.3,h,ZNES
-2050,efficiency,biomass,st,0.487,per unit,DIW
+2040,fom,cavern,acaes,10.0,Euro/kWha,Own assumption (2050)
+2040,fom,hydrogen,storage,10.0,Euro/kWha,Own assumption (2050)
+2040,fom,lithium,battery,10.0,Euro/kWha,Own assumption (2050)
+2040,fom,redox,battery,10.0,Euro/kWha,Own assumption (2050)
+2040,lifetime,cavern,acaes,30.0,a,Own assumption (2050)
+2040,lifetime,hydrogen,storage,22.5,a,Own assumption (2050)
+2040,lifetime,lithium,battery,20.0,a,Own assumption (2050)
+2040,lifetime,redox,battery,25.0,a,Own assumption (2050)
+2040,max_hours,cavern,acaes,7.0,h,Own assumption (2050)
+2040,max_hours,hydro,phs,8.0,h,Own assumption (2050)
+2040,max_hours,hydrogen,storage,168.0,h,Own assumption (2050)
+2040,max_hours,lithium,battery,6.5,h,Own assumption (2050)
+2040,max_hours,porous,acaes,300.0,h,Own assumption (2050)
+2040,max_hours,redox,battery,3.3,h,Own assumption (2050)
+2040,vom,cavern,acaes,1.0,Euro/Mwh,Own assumption (2050)
+2040,vom,hydrogen,storage,1.0,Euro/Mwh,Own assumption (2050)
+2040,vom,lithium,battery,1.0,Euro/Mwh,Own assumption (2050)
+2040,vom,redox,battery,1.0,Euro/Mwh,Own assumption (2050)
+2050,avf,biomass,st,0.9,per unit,Own assumption
+2050,avf,coal,st,0.85,per unit,PRIMES
+2050,avf,gas,ccgt,0.85,per unit,PRIMES
+2050,avf,gas,ocgt,0.96,per unit,PRIMES
+2050,avf,hydro,phs,1.0,per unit,Own assumption
+2050,avf,hydro,ror,1.0,per unit,Own assumption
+2050,avf,hydro,rsv,1.0,per unit,Own assumption
+2050,avf,lignite,st,0.85,per unit,PRIMES
+2050,avf,lithium,battery,1.0,per unit,Own assumption
+2050,avf,mixed,st,0.9,per unit,Own assumption
+2050,avf,oil,ocgt,0.9,per unit,PRIMES
+2050,avf,porous,acaes,1.0,per unit,Own assumption
+2050,avf,solar,pv,1.0,per unit,Own assumption
+2050,avf,uranium,st,0.9,per unit,Own assumption
+2050,avf,waste,st,0.9,per unit,Own assumption
+2050,avf,wind,offshore,1.0,per unit,Own assumption
+2050,avf,wind,onshore,1.0,per unit,Own assumption
+2050,capex,biomass,st,1951.0,Euro/kW,"DIW, p. 75"
+2050,capex,coal,st,1300.0,Euro/kW,"DIW, p. 75"
+2050,capex,gas,ccgt,800.0,Euro/kW,"DIW, p. 75"
+2050,capex,gas,ocgt,400.0,Euro/kW,"DIW, p. 75"
+2050,capex,hydro,phs,2000.0,Euro/kW,"DIW, p. 75"
+2050,capex,hydro,ror,3000.0,Euro/kW,"DIW, p. 75"
+2050,capex,hydro,rsv,2000.0,Euro/kW,"DIW, p. 75"
+2050,capex,lignite,st,1500.0,Euro/kW,"DIW, p. 75"
+2050,capex,oil,ocgt,400.0,Euro/kW,"DIW, p. 75"
+2050,capex,solar,pv,425.0,Euro/kW,"DIW, p. 75"
+2050,capex,wind,offshore,2093.0,Euro/kW,"DIW, p. 75"
+2050,capex,wind,onshore,1075.0,Euro/kW,"DIW, p. 75"
+2050,capex_energy,cavern,acaes,40.0,Euro/kWh,Schill2018
+2050,capex_energy,hydrogen,storage,0.2,Euro/kWh,Schill2018
+2050,capex_energy,lithium,battery,187.0,Euro/kWh,Schill2018
+2050,capex_energy,redox,battery,70.0,Euro/kWh,Schill2018
+2050,capex_power,cavern,acaes,750.0,Euro/kW,Schill2018
+2050,capex_power,hydrogen,storage,1000.0,Euro/kW,Schill2018
+2050,capex_power,lithium,battery,35.0,Euro/kWh,Schill2018
+2050,capex_power,redox,battery,600.0,Euro/kW,Schill2018
+2050,efficiency,biomass,st,0.48700000000000004,per unit,DIW
+2050,efficiency,cavern,acaes,0.73,per unit,roundtrip;Schill2018
 2050,efficiency,coal,st,0.45,per unit,DIW
 2050,efficiency,gas,ccgt,0.5695,per unit,Avg; DIW
 2050,efficiency,gas,ocgt,0.366,per unit,Avg; DIW
 2050,efficiency,hydro,phs,0.75,per unit,roundtrip; DIW
 2050,efficiency,hydro,ror,0.9,per unit,DIW
 2050,efficiency,hydro,rsv,0.9,per unit,DIW
+2050,efficiency,hydrogen,storage,0.46,per unit,roundtrip;Schill2018
 2050,efficiency,lignite,st,0.4,per unit,Avg; DIW
+2050,efficiency,lithium,battery,0.92,per unit,roundtrip; Schill2018
+2050,efficiency,mixed,st,0.3,per unit,Own assumption
 2050,efficiency,oil,ocgt,0.396,per unit,DIW
+2050,efficiency,porous,acaes,0.56,per unit,Own assumption
+2050,efficiency,redox,battery,0.8,per unit,roundtrip;Schill2018
 2050,efficiency,uranium,st,0.34,per unit,DIW
 2050,efficiency,waste,st,0.26,per unit,Own assumption
-2050,efficiency,mixed,st,0.3,per unit,Own assumption
-2050,efficiency,lithium,battery,0.92,per unit,roundtrip; IWES
-2050,efficiency,porous,acaes,0.57,per unit,roundtrip; Own assumption
-2050,max_hours,lithium,battery,6.5,h,"Plessmann, p. 90"
-2050,max_hours,hydro,phs,8,h,"Plessmann, p. 90"
-2050,max_hours,porous,acaes,300,h,Own assumption
-2050,avf,wind,onshore,1,per unit,Own assumption
-2050,avf,wind,offshore,1,per unit,Own assumption
-2050,avf,solar,pv,1,per unit,Own assumption
-2050,avf,biomass,st,0.9,per unit,Own assumption
-2050,avf,coal,st,0.85,per unit,PRIMES
-2050,avf,gas,ccgt,0.85,per unit,PRIMES
-2050,avf,gas,ocgt,0.96,per unit,PRIMES
-2050,avf,hydro,phs,1,per unit,Own assumption
-2050,avf,hydro,ror,1,per unit,Own assumption
-2050,avf,hydro,rsv,1,per unit,Own assumption
-2050,avf,lignite,st,0.85,per unit,PRIMES
-2050,avf,oil,ocgt,0.9,per unit,PRIMES
-2050,avf,mixed,st,0.9,per unit,Own assumption
-2050,avf,uranium,st,0.9,per unit,Own assumption
-2050,avf,waste,st,0.9,per unit,Own assumption
-2050,avf,lithium,battery,1,per unit,Own assumption
-2050,avf,porous,acaes,1,per unit,Own assumption
-2050,vom,wind,onshore,0,Euro/Mwh,Plessmann
-2050,vom,wind,offshore,0,Euro/Mwh,Plessmann
-2050,vom,solar,pv,0,Euro/Mwh,Plessmann
-2050,vom,biomass,st,10,Euro/Mwh,Own assumption
-2050,vom,coal,st,6,Euro/Mwh,"DIW, p. 78"
-2050,vom,gas,ccgt,4,Euro/Mwh,"DIW, p. 78"
-2050,vom,gas,ocgt,3,Euro/Mwh,"DIW, p. 78"
-2050,vom,hydro,phs,0,Euro/Mwh,"DIW, p. 78"
-2050,vom,hydro,ror,0,Euro/Mwh,"DIW, p. 78"
-2050,vom,hydro,rsv,0,Euro/Mwh,"DIW, p. 78"
-2050,vom,lignite,st,7,Euro/Mwh,"DIW, p. 78"
-2050,vom,uranium,st,8.5,Euro/Mwh,"DIW, p. 78, AVG"
-2050,vom,oil,ocgt,3,Euro/Mwh,"DIW, p. 78"
-2050,vom,mixed,st,5,Euro/Mwh,Own assumption
-2050,vom,waste,st,10,Euro/Mwh,Own assumption
-2050,vom,lithium,battery,0,Euro/Mwh,"Plessmann, p. 90"
-2050,fom,wind,onshore,35,Euro/kWa,"DIW, p.78"
-2050,fom,wind,offshore,80,Euro/kWa,"DIW, p.78"
-2050,fom,solar,pv,25,Euro/kWa,"DIW, p.78"
-2050,fom,biomass,st,100,Euro/kWa,"DIW, p.78"
-2050,fom,coal,st,25,Euro/kWa,"DIW, p.78"
-2050,fom,gas,ccgt,20,Euro/kWa,"DIW, p.78"
-2050,fom,gas,ocgt,15,Euro/kWa,"DIW, p.78"
-2050,fom,hydro,phs,20,Euro/kWa,"DIW, p.78"
-2050,fom,hydro,ror,60,Euro/kWa,"DIW, p.78"
-2050,fom,hydro,rsv,20,Euro/kWa,"DIW, p.78"
-2050,fom,lignite,st,30,Euro/kWa,"DIW, p.78"
-2050,fom,oil,ocgt,6,Euro/kWa,"DIW, p.78"
-2050,fom,lithium,battery,10,Euro/kWha,Schill2018
-2050,capex,wind,onshore,1075,Euro/kW,"DIW, p. 75"
-2050,capex,wind,offshore,2093,Euro/kW,"DIW, p. 75"
-2050,capex,solar,pv,425,Euro/kW,"DIW, p. 75"
-2050,capex,biomass,st,1951,Euro/kW,"DIW, p. 75"
-2050,capex,coal,st,1300,Euro/kW,"DIW, p. 75"
-2050,capex,gas,ccgt,800,Euro/kW,"DIW, p. 75"
-2050,capex,gas,ocgt,400,Euro/kW,"DIW, p. 75"
-2050,capex,hydro,phs,2000,Euro/kW,"DIW, p. 75"
-2050,capex,hydro,ror,3000,Euro/kW,"DIW, p. 75"
-2050,capex,hydro,rsv,2000,Euro/kW,"DIW, p. 75"
-2050,capex,lignite,st,1500,Euro/kW,"DIW, p. 75"
-2050,capex,oil,ocgt,400,Euro/kW,"DIW, p. 75"
-2050,capex_energy,lithium,battery,187,Euro/kWh,Schill2018
-2050,capex_power,lithium,battery,35,Euro/kWh,Schill2018
-2050,lifetime,wind,onshore,25,a,"DIW, p. 72"
-2050,lifetime,wind,offshore,25,a,"DIW, p. 72"
-2050,lifetime,solar,pv,25,a,"DIW, p. 72"
-2050,lifetime,biomass,st,30,a,"DIW, p. 72"
-2050,lifetime,coal,st,40,a,"DIW, p. 72"
-2050,lifetime,gas,ccgt,30,a,"DIW, p. 72"
-2050,lifetime,gas,ocgt,30,a,"DIW, p. 72"
-2050,lifetime,hydro,phs,50,a,"DIW, p. 72"
-2050,lifetime,hydro,ror,50,a,"DIW, p. 72"
-2050,lifetime,hydro,rsv,50,a,"DIW, p. 72"
-2050,lifetime,lignite,st,40,a,"DIW, p. 72"
-2050,lifetime,oil,ocgt,40,a,"DIW, p. 72"
-2050,lifetime,lithium,battery,10,a,"Plessmann, p. 90"
-2050,efficiency,redox,battery,0.75,per unit,roundtrip;ZNES
-2050,efficiency,hydrogen,storage,0.4,per unit,roundtrip;ZNES
-2050,efficiency,cavern,acaes,0.7,per unit,roundtrip;ZNES
-2050,max_hours,redox,battery,3.3,h,ZNES
-2050,max_hours,hydrogen,storage,168,h,eGo
-2050,max_hours,cavern,acaes,3,h,ZNES
-2050,lifetime,redox,battery,25,a,Schill2018
+2050,fom,biomass,st,100.0,Euro/kWa,"DIW, p.78"
+2050,fom,cavern,acaes,10.0,Euro/kWha,Schill2018
+2050,fom,coal,st,25.0,Euro/kWa,"DIW, p.78"
+2050,fom,gas,ccgt,20.0,Euro/kWa,"DIW, p.78"
+2050,fom,gas,ocgt,15.0,Euro/kWa,"DIW, p.78"
+2050,fom,hydro,phs,20.0,Euro/kWa,"DIW, p.78"
+2050,fom,hydro,ror,60.0,Euro/kWa,"DIW, p.78"
+2050,fom,hydro,rsv,20.0,Euro/kWa,"DIW, p.78"
+2050,fom,hydrogen,storage,10.0,Euro/kWha,Schill2018
+2050,fom,lignite,st,30.0,Euro/kWa,"DIW, p.78"
+2050,fom,lithium,battery,10.0,Euro/kWha,Schill2018
+2050,fom,lithium,battery,10.0,Euro/kWha,Schill2018
+2050,fom,oil,ocgt,6.0,Euro/kWa,"DIW, p.78"
+2050,fom,redox,battery,10.0,Euro/kWha,Schill2018
+2050,fom,solar,pv,25.0,Euro/kWa,"DIW, p.78"
+2050,fom,wind,offshore,80.0,Euro/kWa,"DIW, p.78"
+2050,fom,wind,onshore,35.0,Euro/kWa,"DIW, p.78"
+2050,lifetime,biomass,st,30.0,a,"DIW, p. 72"
+2050,lifetime,cavern,acaes,30.0,a,Schill2018
+2050,lifetime,coal,st,40.0,a,"DIW, p. 72"
+2050,lifetime,gas,ccgt,30.0,a,"DIW, p. 72"
+2050,lifetime,gas,ocgt,30.0,a,"DIW, p. 72"
+2050,lifetime,hydro,phs,50.0,a,"DIW, p. 72"
+2050,lifetime,hydro,ror,50.0,a,"DIW, p. 72"
+2050,lifetime,hydro,rsv,50.0,a,"DIW, p. 72"
 2050,lifetime,hydrogen,storage,22.5,a,Schill2018
-2050,lifetime,cavern,acaes,30,a,Schill2018
-2050,capex_energy,redox,battery,70,Euro/kWh,Schill2018
-2050,capex_energy,hydrogen,storage,0.2,Euro/kWh,Schill2018
-2050,capex_energy,cavern,acaes,40,Euro/kWh,Schill2018
-2050,capex_power,redox,battery,600,Euro/kW,Schill2018
-2050,capex_power,hydrogen,storage,1000,Euro/kW,Schill2018
-2050,capex_power,cavern,acaes,750,Euro/kW,Schill2018
-2050,fom,redox,battery,10,Euro/kWha,Schill2018
-2050,fom,hydrogen,storage,10,Euro/kWha,Schill2018
-2050,fom,cavern,acaes,10,Euro/kWha,Schill2018
-2050,vom,redox,battery,1,Euro/Mwh,Schill2018
-2050,vom,hydrogen,storage,1,Euro/Mwh,Schill2018
-2050,vom,cavern,acaes,1,Euro/Mwh,Schill2018
+2050,lifetime,lignite,st,40.0,a,"DIW, p. 72"
+2050,lifetime,lithium,battery,20.0,a,Schill2018
+2050,lifetime,oil,ocgt,40.0,a,"DIW, p. 72"
+2050,lifetime,redox,battery,25.0,a,Schill2018
+2050,lifetime,solar,pv,25.0,a,"DIW, p. 72"
+2050,lifetime,wind,offshore,25.0,a,"DIW, p. 72"
+2050,lifetime,wind,onshore,25.0,a,"DIW, p. 72"
+2050,max_hours,cavern,acaes,7.0,h,Wolf2011
+2050,max_hours,hydro,phs,8.0,h,"Plessmann, p. 90"
+2050,max_hours,hydrogen,storage,168.0,h,eGo
+2050,max_hours,lithium,battery,6.5,h,"Plessmann, p. 90"
+2050,max_hours,porous,acaes,300.0,h,Own assumption
+2050,max_hours,redox,battery,3.3,h,ZNES
+2050,vom,biomass,st,10.0,Euro/Mwh,Own assumption
+2050,vom,cavern,acaes,1.0,Euro/Mwh,Schill2018
+2050,vom,coal,st,6.0,Euro/Mwh,"DIW, p. 78"
+2050,vom,gas,ccgt,4.0,Euro/Mwh,"DIW, p. 78"
+2050,vom,gas,ocgt,3.0,Euro/Mwh,"DIW, p. 78"
+2050,vom,hydro,phs,0.0,Euro/Mwh,"DIW, p. 78"
+2050,vom,hydro,ror,0.0,Euro/Mwh,"DIW, p. 78"
+2050,vom,hydro,rsv,0.0,Euro/Mwh,"DIW, p. 78"
+2050,vom,hydrogen,storage,1.0,Euro/Mwh,Schill2018
+2050,vom,lignite,st,7.0,Euro/Mwh,"DIW, p. 78"
+2050,vom,lithium,battery,0.0,Euro/Mwh,"Plessmann, p. 90"
+2050,vom,lithium,battery,1.0,Euro/Mwh,Schill2018
+2050,vom,mixed,st,5.0,Euro/Mwh,Own assumption
+2050,vom,oil,ocgt,3.0,Euro/Mwh,"DIW, p. 78"
+2050,vom,redox,battery,1.0,Euro/Mwh,Schill2018
+2050,vom,solar,pv,0.0,Euro/Mwh,Plessmann
+2050,vom,uranium,st,8.5,Euro/Mwh,"DIW, p. 78, AVG"
+2050,vom,waste,st,10.0,Euro/Mwh,Own assumption
+2050,vom,wind,offshore,0.0,Euro/Mwh,Plessmann
+2050,vom,wind,onshore,0.0,Euro/Mwh,Plessmann
