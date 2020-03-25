@@ -1,8 +1,12 @@
 year,parameter,carrier,tech,value,unit,source
-2050,capex,decentral_heat,hp,1400,Euro/kW,Brown2018
-2050,lifetime,decentral_heat,hp,20,a,Brown2018
-2050,fom,decentral_heat,hp,49,Euro/kWa,Brown2018
-2050,cop,decentral_heat,hp,3,Euro/kWa,
+2050,capex,decentral_heat,gshp,1400,Euro/kW,Brown2018
+2050,lifetime,decentral_heat,gshp,20,a,Brown2018
+2050,fom,decentral_heat,gshp,49,Euro/kWa,Brown2018
+2050,cop,decentral_heat,gshp,3,Euro/kWa,
+2050,capex,decentral_heat,ashp,1050,Euro/kW,Brown2018
+2050,lifetime,decentral_heat,ashp,20,a,Brown2018
+2050,fom,decentral_heat,ashp,36.75,Euro/kWa,Brown2018
+2050,cop,decentral_heat,ashp,2,Euro/kWa,
 2050,capex,decentral_heat,tes,38.376,Euro/kWh,Brown2018
 2050,max_hours,decentral_heat,tes,72,h,Brown2018
 2050,lifetime,decentral_heat,tes,20,a,Brown2018
